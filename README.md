@@ -2,7 +2,7 @@
 
 ## Overview
 The replication package contains the refactoring containing commits which were extracted from the subject applications (Springframework, Elasticsearch, Kafka, Hadoop, Tomcat, and Junit4). The commit and 
-the assocaited refactorings are provided in the apackage. 
+the associated refactorings are provided in the package. 
 This guide provides instructions for cloning and setting up the subject applications, as well as accessing the refactoring-associated commits. Follow the steps below to ensure a successful setup.
 
 ## Steps to Setup
