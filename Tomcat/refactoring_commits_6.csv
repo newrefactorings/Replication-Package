@@ -1,0 +1,79 @@
+,Commit ID,Commit Message,Comment
+1,0d51ce7ba8,Same but avoiding the visibility hack,1.Extract method 2.Rename variable
+2,5c3695e8dc,Remove useless import,1.Remove unused import
+3,eeb4e761ab,Cleanup fixmes,1.Remove comments
+4,10e3731f34,Reove unused translation,1.Remove comments
+5,b0e3b1bd78,Refactor WebSocket close for suspend/resume,1.Extract method 2.Extract class 3.Extract constant
+6,3a9dbd17f5,Avoid useless add operation,1.Remove unused operation
+7,fe70851fca,Remove unused code,1. Remove unused parameters
+8,9addc690a6,No need for package visibility. Can be final.,1. Encapsulate variable
+9,54012bd3b8,Remove useless synchronized,1. Remove unused method
+10,962cdc9aa8,Remove useless sync,1. Remove unused method
+11,442b0d38ea,Refactor as this test requires manual intervention,1. Rename class
+12,9c5f303e9a,Results depend on timing so group this with the performance tests,1. Rename class
+13,df5d4b9e23,Refactor so test doesn't appear as skipped,1.Rename class
+14,8fe3db67fd,This is a performance test - use correct naming,1.Rename class
+15,00e7bca774,Refactor test to test renegotiation failure rather than skipping test,1. Rename method 2.Remove method
+16,4db283bf81,Refactor tests that require large heap to new category,1.Move method 2. Extract method
+17,b4634a9723,Refactor test that requires large heap into a separate category,1.Move method 2. Extract method
+18,c7796834bf,Refactor performance tests to separate class,Move method
+19,705e3644d7,Cleanup typing for password callbacks,1. Remove field 2. Merge interfaces
+20,84bd34e0b9,Remove unused parameters,Remove unused parameter
+21,d7d18b87b9,Cleanup error reporting,Encapsulate method
+22,5f6ac4e03e,Refactor tests to avoid use of @Ignore,Extract method
+23,bf58e444d9,Improve verify-release target.,1.Encapsulate Field 2.Move Directory
+24,c766eefed9,Refactor long running tests to improve parallelism,Extract Superclass
+25,4db15071f7,Refactor and handle NIO2 which doesn't return a response,1.Extract method 2.Inline method 3.Rename variable
+26,f33ee501c3,Move around some declarations after some symbol visibility changes,1.Extract method 2.Rename variable 3.Introduce method 4.Remove unused comments
+27,33232721f3,Remove unused imports when cleaning up code,1.Remove unused imports
+28,ba7fd15e45,Refactor to use new SSLHostConfig instance for each test,1. Extract method
+29,e16eedd8ed,Simplify (aligns with similar usages),Inline method
+30,e9ab5f4b97,Refactor native tests setup,1.Extract method 2. Parameterise method
+31,be535eefed,Refactor decrement using a common method,1.Extract method 
+32,28e1010655,Refactor to remove syncs for upgraded connections statistics,1. Encapsulate method
+33,36807a6fca,Sync access for stats,1.Remove unused method 
+34,8cb16cd40b,Remove useless code,1. Remove unused conditional
+35,2236738fb2,Remove useless override,Remove Unused Override
+36,a8e5f82860,Improve alignment with Commons FileUpload 1.x,Remove unused import
+37,55aadf3929,Extract out some of the important macros for readability,1.Extract method 2.Rename class
+38,6e641be1d7,Eliminating duplicate execution of checkFacade logic in ResponseFacade (#657),1.Remove redundant call to method
+39,ff53af8b69,Eliminating duplicate execution of checkFacade logic in ResponseFacade (#654),1.Remove redundant call to method
+40,f650ea788d,Simplify code. Based on PR #651 by wonyongChoi05,1.Replace Array with List
+41,3cbca9ce51,Eliminating duplicate execution of checkFacade logic,1.Remove Redundant Method Call
+42,d0b655d831,Refactor Request::getSession() to invoke Request::getSession(false) internally. (#648),1.Inline Method
+43,7c4e89fc00,Remove unused strings,1.Remove unused datatype (strings)
+44,a50d10bbc7,Refactor into individual tests,1.Extract Method 2. Split method
+45,9c09f9abfb,Refactor to use CopyOnWriteArrayList rather than hand-crafted equivalent,1.Replace Array with Collection 2.Replace Synchronized Blocks
+46,81208e5ca0,Refactor to use a common lock for filters,1.Encapsulate method
+47,32b1181b75,Refactor to enforce 1-2-1 mapping for request and InputBuffer,1.Change constructor signature 2.Remove unused method
+48,89864d971f,Refactor to enforce 1-2-1 mapping for request and Coyote request,2.Change constructor signature 2.Remove unused method
+49,31e02d0062,Refactor to enforce 1-2-1 mapping for OutputBuffer and Coyote response,3.Change constructor signature 2.Remove unused method
+50,418328a412,Refactor to enforce 1-2-1 mapping between response and Coyote response,4.Change constructor signature 2.Remove unused method
+51,772761b100,Remove useless methods,1.Remove unused method 
+52,bf93413990,Separate Catalina listener code,Extract class
+53,a33a493ef7,Remove unused return value,Change Method Signature
+54,e0927ed00f,Remove unused variable,Remove unused variable
+55,d1f0c34b18,Pull up as default method since it avoids API compatibility issues,1. Pull up method 2.Extract interface
+56,00e7d79d3b,Refactor SimpleHTTPClient to read body as-is rather than via readLine(),1.Split method
+57,33fe0f9be8,Simplify code,1.Remove redundant conditional check
+58,9a6bc65e50,Refactor WebDAV servlet escaping for XML. Add test case.,1. Remove redundant method
+59,4b831e21ef,Replace Subject.doAs() with Subject.callAs(),1.Replace method
+60,7b30f69370,Replace calls to Thread.getId() with Thread.threadId(),1.Replace thread
+61,592bc75020,Refactor JreCompat for minimum Java version of Java 21,1.Extract method 2. Remove unused property
+62,bd25937d2a,Remove unused constant,Remove unused constant
+63,b3294ebe45,Remove redundant Json escaping of values in JsonAccessLogValve.,1.Remove redundant class 2. Remove redundant method
+64,71b6644bce,Improve naming - based a patch by Tom Whitmore,1.Rename class
+65,afb270c3f7,Refactor. Simplify logic. No functional change.,1. Merge conditional ifs
+66,a56929fed7,Refactor to reduce native calls,1. Reuse variable
+67,4fe7e810b6,Refactor to remove use of ThreadLocal,1.Replace variable 2. Remove unused variable
+68,992bf9219b,Refactor to make using custom endpoints easier,1.Reuse constructor
+69,f40872b054,Refactor - use enhanced for loops - no functional change,"Replace Traditional Loops with Enhanced For Loops"" "
+70,b3b1cd21c8,Remove redundant modifiers,Remove redundant modifiers
+71,87e1cbf767,Improve: Reuse the instance of StringBuilder to avoid duplicate object creation (#588),Reuse instance
+72,c2f49d28a9,Remove unused code,Remove unused variable
+73,3183fd399b,Refactor to reduce code duplication,1.Extract method 
+74,9437efd95b,Refactor constants for default priority values,1.Extract constant
+75,f59c112ff0,Remove unused code,1.Remove unused field
+76,1bfffde19c,Refactor to reduce code duplication,1. Extract method
+77,254ca3dc91,Refactor to reduce duplicate code,1.Extract method 
+78,021b1696b3,Refactor storage of current character encoding for request/response,1.Rename variable 2.Extract method
