@@ -1,10 +1,32 @@
-In order to use this replication package follow the following steps:
-1. clone the subject applications from their respective repostories to your local machine
-2. Springframework (https://github.com/spring-projects/spring-framework)
-3. Elasticsearch (https://github.com/elastic/elasticsearch)
-4. Kafka (https://github.com/apache/kafka)
-5. Hadoop (https://github.com/apache/hadoop)
-6. Tomcat (https://github.com/apache/tomcat)
-7. Junit 4 (https://github.com/junit-team/junit4)
-8. After the repositories have been clone the the replication package can be downloaded and  unzipped to access the refactoring associated commits.
-9. For example, for Hadoop, to check the refactoring commit you can go to the location of the folder using the command line and type 'git show <commit>' to view the contents of the commits.
+# Replication Package Guide
+
+## Overview
+
+This guide provides instructions for cloning and setting up the subject applications, as well as accessing the refactoring-associated commits. Follow the steps below to ensure a successful setup.
+
+## Steps to Setup
+
+1. **Clone the Subject Applications**
+   - Clone each of the following repositories to your local machine:
+     - **Spring Framework**: [GitHub Repository](https://github.com/spring-projects/spring-framework)
+     - **Elasticsearch**: [GitHub Repository](https://github.com/elastic/elasticsearch)
+     - **Kafka**: [GitHub Repository](https://github.com/apache/kafka)
+     - **Hadoop**: [GitHub Repository](https://github.com/apache/hadoop)
+     - **Tomcat**: [GitHub Repository](https://github.com/apache/tomcat)
+     - **JUnit 4**: [GitHub Repository](https://github.com/junit-team/junit4)
+
+2. **Download and Unzip the Replication Package**
+   - After cloning the repositories, download the replication package and unzip it to access the refactoring-associated commits.
+
+3. **Accessing Refactoring Commits**
+   - Navigate to the folder of the desired project using the command line.
+   - Use the command `git show <commit>` to view the contents of a specific commit.
+
+### Example: Viewing a Refactoring Commit for Hadoop
+
+1. Open your command line interface.
+2. Navigate to the Hadoop project folder:
+   ```bash
+   cd path/to/hadoop
+   git show <commit>
+   Replace <commit> with the actual commit hash you wish to inspect.
