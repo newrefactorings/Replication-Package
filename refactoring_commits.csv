@@ -1,0 +1,75 @@
+,Commit ID,Commit Message,Suggested Refactorings
+1,1fa6ac30b5,Remove unused lastReadInvokerPair field in ReflectivePropertyAccessor,1.Remove Unused Field2.Remove Redundant Field
+2,fa5d246a1b,Replace all exposed superclasses in final step after traversal,1. Extract variable 2. Remove method
+3,ff9c7141c5,Replace superclass exposure in case of late configuration class skipping,1. Rename variable 2.Remove method 3. Reuse class
+4,871f705bca,Remove ComponentScan duplicate condition,1. Remove redundant check condition
+5,2dd22f64e1,Improve cancellation of read/write inactivity,1. Extract method 2. Move method 3.Merge Method
+6,ce43d1b1da,Simplify logic in ApplicationContextAwareProcessor.postProcessBeforeInitialization(),1. Extract method 2.Simplify nested conditional statement
+7,81c156eefb,Replace public hasRestTemplateDefaults() method with hasBaseUri(),1. Extract method 2. Rename method
+8,c559ec4dfb,Refactor ReloadableResourceBundleMessageSource,1.Extract method 2. Extract method 3. Rename variable
+9,7e5efdd8dd,Reuse MapPropertySource for DynamicValuesPropertySource implementation,1. Extract class 2
+10,2e56361fe4,Simplify implementation of internal VariableNotAvailableException,1. Remove unused field/property
+11,d96a63944c,Simplify use of Reactor's cast operator,1.Replace operator 2. Rename operator
+12,3c5d46166e,"Polish ""Replace if with switch where feasible""",1. Replace if with switch
+13,cfa3aa001f,Replace if with switch where feasible,1. Replace if with switch
+14,7474af4f09,Cleanup kotlin sources,1. Remove unused import 2. Remove empty constructors 3.Remove unused type argument
+15,cd8bc2f82a,Remove useless empty inheritDoc Javadoc tag,1. Remove unnecessary javadoc tags
+16,8eb524dc4d,"Polish ""Replace deprecated usage of project.buildDir""",1. Replace deprecated property
+17,dee8108bbc,Replace deprecated usage of project.buildDir, Replace deprecated property
+18,503ccb577c,Remove unused imports,Remove unused import
+19,b510bc3bab,Reuse generated key for get+put within same cacheable operation,Reuse operation
+20,b782747472,Remove unused code,Remove class
+21,438c3818cc,Replace System.getProperties().remove(x) with System.clearProperty(x),Replace property usage
+22,afcd03bddc,Replace assertThat(x.isEmpty()).isTrue() with assertThat(x).isEmpty(),Replace repetitive assertions
+23,7b16ef90f1,Replace assertThat(x.equals(y)) with assertThat(x).isEqualTo(y),Replace repetitive assertions
+24,e2852e7355,Replace assertThat(x.contains(y)).isTrue() with assertThat(x).contains(y),Replace repetitive assertions
+25,66e405525b,Replace assertThat(x instanceof y).isTrue() with assertThat(x).isInstanceOf(y.class),Replace repetitive assertions
+26,59815cefce,Replace assertThat(x.get(i)). with assertThat(x).element(i).,Replace repetitive assertions
+27,785ad399e9,Replace assertThat(x.iterator().next()) with assertThat(x).element(0),Replace repetitive assertions
+28,ceba4162bb,Replace assertThat(!x).isTrue() with assertThat(x).isFalse(),Replace repetitive assertions
+29,8567402969,"Extract recurring asciidoc links to attributes, cleanup old doc files",Extract links
+30,ff14c5121d,Refactor ResourceWebHandlerTests,Extract Resource Declaration into a Nested Class 1.Nest methods
+31,ebfa009f18,Refactor tests in ResourceHttpRequestHandlerTests,1.Extract method 2. Rename method
+32,4fd1431cea,Restructure test to use Nested more consistently,1.Extract method 2. Nested class
+33,d05ac097dd,"Polish ""Replace deprecated method getBuildDir()""",remove deprecated method
+34,35103b0cd1,Replace deprecated method getBuildDir(),remove deprecated method
+35,eafbcfd385,Remove redundant static declaration on Search class,remove redundant static declaration
+36,35372e5e72,Simplify InstanceSupplierCodeGeneratorTests,Extract field
+37,08237da4b4,Simplify equals() implementation in PerTargetInstantiationModelPointcut,Remove field
+38,09b1e5edf6,Extract instantiateComponents() method in AbstractTestContextBootstrapper,1. Extract method 2. Rename parameter 3.Generalise method
+39,5bcbcb3049,Simplify SynthesizedMergedAnnotationInvocationHandler.invoke(),1. Introduce switch statement 2.Remove redundant method
+40,e7cf54d4e2,Revise SpEL inline collection caching improvements,1.Rename method
+41,4aeeacb4c2,Simplify and rename TestContextManager[ListenerExecutionOrder]Tests,1.Rename class 2.Remove method
+42,bcf11e8919,Replace Reactive awaitSingle() usages by the Mono variant,Replace method
+43,942800e8ec,Refactor MethodValidationAdapter constructors,1. Extract method 2.Remove annotations 3.Introduce condition
+44,a55b50b512,Simplify implementation of AnnotationMetadata.getMetaAnnotationTypes(),1.Remove annotations
+45,fd5b0e144d,Reuse Reactive Streams 1.0.3 FlowAdapters for Flow.Publisher bridge,1.Extract method 2.Rename class 3.
+46,bcff7d74cd,Replace map entry traversal with switch expression,1. Replace loop with switch 3. Extract method
+47,0d5a7db238,Remove unused import,Remove unused imports
+48,3be4c0a893,Replace Void with void on exchange method,Replace Return Type
+49,676daa990b,Reorganize methods in MBeanExporter,Move method
+50,6fa09e1783,Extract AnnotatedMethod base class for consistent annotation exposure,1. Extract class 2. Encapsulate field
+51,a481c7649f,Refactor to prepare for method validation handling,1. Extract Method 2.Replace Inheritance with Delegation 3.Introduce Parameter Object 4.Rename Method 5. Rename Class 7.Extract Interface
+52,489c89b912,Remove unused test code,1. Remove unused class 2. Remove unused method
+53,3745224646,Remove redundant assertion in ReactorServerHttpResponse constructor,1.Remove redundant assertion
+54,6931106c5e,Redesign inner Pointcut implementations as standalone classes,1. Move class
+55,324c6057fd,Remove duplicate code in RequestResponseBodyMethodProcessor,1. Remove duplicate method
+56,be94e1a2fb,Replace switch statements with enhanced switch statements for consistency,1.Replace switch statements with enhanced switch statements 2.Merge switch blocks
+57,8d6d99731f,Delete unused code,Remove unused inner class 
+58,c227fbfdf2,Reorganize helper methods to align with first usage principle,Move method
+59,e51c71bcd6,Delete unused code,Remove unused variable  2. Remove unused class
+60,dfe320f172,Reorganize methods in ReloadableResourceBundleMessageSource,1. Move method
+61,5c574b9878,Refactor toolchain support in Gradle build,Remove unused parameter 2. Rename parameter
+62,59c65fa940,Replace `Collections.unmodifiableList(new ArrayList(..))` with `List.copyOf()` (#30166),Replace collection with list
+63,1734deca1e,Refactor AssertJ assertions into more idiomatic ones,Replace assertions
+64,9d28fe90f5,Simplify AbstractAspectJAdvisorFactory internals,1. Rename method 2. Rename variable 3.Remove unused type parameters
+65,4d6249811e,Explicit target ClassLoader for interface-based infrastructure proxies,1.Removal of Deprecated References 
+66,e564a0de46,Provide access to interceptors in AbstractHandlerMapping,1.Change visibility 2.Remove redundant methods
+67,c3d123fef7,Allow @Aspect classes to extend concrete @Aspect classes,1. Remove modifier inputc2.Removal of Unnecessary Code
+68,f7e07322ab,Simplify Base64Utils by using java.util.Base64,1. Remove unused import 2. Removal of unused code
+69,d2b54e2611,Remove duplicate words in reference manual,1. Remove duplicate instances
+70,a3a94950f6,Rework linking to Spring MVC Async support vs WebFlux section,1. rename 2.remove redundant links
+71,5965917d16,Extract ResourceEntityResolver HTTPS schema resolution fallback,1. Extract method 2. simplify code
+72,f8a1dac593,Use consistent visibility for ResponseEntityExceptionHandler.getMessageSource(),1. change visibility
+73,2b6f3caff4,Remove dead code in MockClientHttpRequest,1. remove unused code
+74,348cc01284,Rename MultipartWebClientIntegrationTests classes to avoid duplicate names,1. rename
