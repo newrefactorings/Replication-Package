@@ -1,0 +1,88 @@
+,Commit ID,Commit Message,Suggested Initial Refactorings
+1,abd27222281,Cleanup subproject creation in build tests (#105998),1. Extract method 2.Decoupling Subproject Configuration
+2,e23852736ef,Inline `maybeFilterRepositories` (#105761),1. Method Inlining
+3,1fae3e75017,Extract `SnapshotSortKey` (#106015),1. Combine Enum with Comparator
+4,c0d35f1e77d,[Transform] Cleanup and simplify reading transform settings (#105554),1. Remove Empty constructor 2.Introduce Empty constant
+5,680774e7f27,[ML] Refactor inference service retry and queuing logic (#105526),1. Rename class2.Rename method.3.Rename variable.4.Rename parameter4.Move method.5.Move class.6.extract nested class
+6,d65461d7fbb,[DSL] Refactor effective data retention (#105750),1. Rename method 2. Extract method
+7,1c03489f469,YAML test framework: simplify version node_selector (#103954),1. Rename method 2.Extract method 3.Deprecate method
+8,b96f8f0ce6a,Dry up some painless code (#105885),1. Extract method
+9,7ddf5191803,Cleanup duplicate code in DenseVectorFieldMapper (#105887),1. Extract method 2. remove redundant code
+10,35ff2802518,Simplify TransportGetSnapshotsAction#sortSnapshots (#105895),1. Simplify method logic
+11,9e5fbf6021a,Extract repository-resolution logic (#105760),1. Extract class 2.Remove method 3.Remove unused constant
+12,987b778bb67,Extract cold(ish) paths in some SearchPhases (#105884),1. Extract class 2.Simplify conditional logic 3. Remove unused code
+13,0fb3a6ecd5b,Cleanup logic around ML's ScrollDataExtractor and reactivate related test (#105826),1. Remove unused imports 2. extract method
+14,067aba96cd7,Standardize build distribution internals on os/architecture (#105842),1. Inline Method 2.parameterize method
+15,50090f1a9c0,Simplify LeakTracker by using java.lang.ref.Cleaner (#105798),1. Rename method 2.remove unused loop 3.Replace logic/code 4. Remove method
+16,56716694b09,[Connectors API] Remove unused method (#105739),1. Remove method
+17,c5b705dfb41,Refactor `node_selector`s: remove redundant ones and change to `current` (#103889),1. Remove redundant code (selectors)
+18,7cbdb6cc197,Drop dead code from get-snapshots request & response (#105608),1. Remove unused code 2. Move method
+19,f65f8ecd29a,Remove unused field (#105640),1. Remove unused field
+20,1b7f3a0eae0,Extract common inference ServiceSettings methods (#105553),1. Extract method
+21,7c385b001f4,ESQL: Refactor EsqlTranslatorHandler (#105230),1. Move expression 2.Code replacement
+22,510c8515abe,"Refactor getAliases, add more yaml tests (#105370)",1. Extract method
+23,5c1e3e2c919,ESQL: Replace [ccq.mode] in favor of a policy prefix (#105224),1. Rename parameter
+24,01f19ecab29,Simplify and optimize code around TermQueryBuilder.BinaryValues (#105220),1. Introduce constant 2. Remove unused code
+25,3b7b86c507f,Simplify `ChunkedToXContentHelper#singleChunk` (#105225),1. Simplify method logic 2. Remove redundant code
+26,5b2cdac7615,Some cleanup of SearchTransportService (#105185),1. Remove method 2.Remove duplicate code
+27,7d522145def,Refactor ApiKeyFieldNameTranslators to expose query builder translator (#105057),1. Extract  Method 2. Remove redundant code
+28,9f2d38856d3,Simplify EQL logic that references SearchHit (#105060),1. Remove class 2. Rename parameter
+29,b328982e373,Refactor DataExtractor summary (#105011),1. Move method 2.remove unused code 3. Rename parameter
+30,8652e5cb579,Simplify and save allocations around SeqNoFieldMapper (#105036),1. Remove field 2.Remove method
+31,155f2cdf3ff,Extract inner classes from TransportBulkAction (#104986),1. Extract inner class
+32,dbf59c54143,Update/Cleanup references to old tracing.apm.* legacy settings in favor of the telemetry.* settings (#104917),1. Replace parameter
+33,a3b1d86c45c,Reuse APMMeterService of APMTelemetryProvider (#104906),1. Extract method 2. reuse method
+34,900a48ca26b,Remove unused code from earlier GeoPoint ESQL work (#104717),1. Remove unused import 2. remove unused conditional
+35,bce405f9849,Simplify test shard routing (#104472),"1. Replace instance (""replacing instance creation"" or ""replacing direct instantiation"" with a builder pattern)"
+36,ed6e8ec80c7,Extract `ResponseLengthRecorder` in REST layer (#104836),1. Extract class 2. Remove commented out code
+37,1116889819a,Remove unused arg from `ActionType` ctor (#104650),1. Remove parameter (Remove constructor argument)
+38,45c32871acb,Separate `RemoteClusterActionType` from `ActionType` (#104611),1. Introduce new class 2. Extract class
+39,cd38c3a28d4,Simplify `MergeResult#buildMergedMappers` (#104578),1. Simplify Conditional 2.Replace Loop with Iterator
+40,2b03368639b,Separate remote-cluster and local-cluster clients (#104536),1. Extract Interface 2.Replace Method with Method Object
+41,b198f3b4b46,Remove redundant ResizeResponse (#104464),1. Remove class
+42,2b175653d9f,YAML test framework: separate `skip` and `requires` sections  (#104140),1. Extract Method 2.Rename Method 3.Extract Class 4.Introduce Parameter Object
+43,8582a18817e,[Profiling] Extract properties faster from source (#104356),1. Extract Interface 2. Rename Method 3. Rename Variable
+44,8acfebeb084,Cleanup `OperationModeUpdateTask` (#104265),1. Remove method 2.Remove duplicate code
+45,6187e905564,Replace some ActionListener.wrap with more efficient delegateFailureAndWrap in ml module (#103891),1. Replace parameter
+46,971cfb9317f,[ML] Refactor assignment planner code (#104260),1. Extract method 2. Remove TODO comments
+47,1b2e8cf5a2b,[ML] Refactor InferenceConfigUpdate for simpler changes to tokenization options (#104277),1. Extract method 2. Rename method
+48,142d4df6067,Simplify handling of runtime java for tests clusters (#104232),1. Remove parameter
+49,1d7d9dc1eed,Refactor RollupResponseTranslator slightly to ease ref-counting (#104196),1. Change method signature 
+50,8773a1208ba,[ML] Rename ML memory metrics (#104121),1. Rename variable
+51,df8202206a8,Avoid redundant BufferedInputStream when reading compressed x-content (#103998),1.Remove redundant method
+52,a8d19a5166c,ESQL: Simplify how we transform WKB to WKT in response (#104053),1.Remove class 2. Replace parameter
+53,7550cea83c9,Simplify LoggingDeprecationHandler (#104019),1. Extract method 
+54,a72524a9965,Remove some more unused XContent parsers (#98070),1. Remove unused imports 2. remove unused methods
+55,6faa54c171d,Simplify `TransportInstanceSingleOperationAction#ShardTransportHandler` (#104031),1. Remove unused class
+56,f5f0cd25572,Minor cleanup of org.elasticsearch.xpack.analytics package (#102737),"1. Removed unused methods2.Removed unnecessary boxing3. Replaced old style for loops4. Replace lambdas with method references(code cleanup, standardisation)"
+57,90f5bd5d635,Cleanup some dead code in ml module (#103890),1. Change method signature 2.Remove unused variable
+58,174bed090b8,Minor array block cleanup (#103874),1. Add assertion
+59,9ab7945fc74,ESQL: Simplify conversion implementations slightly (#103882),1. Move member variable to superclass
+60,4e2389fb2cb,ESQL: Improve docs for the floating points is_xxx() funtions (#103691),1. Rename constants
+61,cea88cbeecb,"Replace Version with String in YAML framework, pushing Version parsing where is actually needed (#103311)",1. Replace parameter
+62,922e790cdc8,Simplify locking around Engine#flush (#103138),1. Extract method 2. Change method signature
+63,d16ea551cde,ESQL: Small cleanup in DocVector (#103726),1. Remove method
+64,bee55064e3f,ESQL: Remove unused StringBuilder (#103323),1. Remove unused StringBuilder instantiation
+65,729a4dba393,Simplify exchange service in ESQL (#103418),1. Remove unused method
+66,29ed67de2a3,Cleanup node metric names (#103089),1. Remove redundant name prefixes
+67,48dcb856157,ESQL: Simplify vector ownership (#103631),1. Remove fixed block associations
+68,e9795cda380,Deduplicate pipeline name when reading index requests (#87277),1. Introduce class for string literal deduplication
+69,040692497b9,Refactoring: extract methods from `ESRestTestCase#initClient` (#103579),1. Extract method 2.Reuse method
+70,77733642840,Replace Nginx fixture usage with UrlFixture (#103494),1. Replace dependency
+71,c7021050f16,Slightly simplify setup tsds section (#103475),1. Remove unused parameter
+72,ccbf242c533,[Profiling] Remove unused serialization code (#102932),1. Remove unused serialization code/method
+73,0e5f485058e,ServerProcess refactoring (separate options construction from ServerProcess start) (#102973),1. Move class 2. introduce class
+74,a5aae93b652,Small cleanup to IndicesRequestCache (#103348),1. Remove class 2.Use non-capturing lambda listener
+75,1452658e353,Remove dead code from mappers codebase (#103273),1. Remove unused class
+76,86933ad2f32,Remove deprecated + unused ActionListener#wrap variant (#103243),1.Remove Deprecated Method
+77,5cf8b94f300,Simplify CompositeRolesStore#getRoleDescriptors (#103126),1. Rename method 2. Change method signature 3.Remove unused parameter
+78,b9c29807ecc,Extract repositories metrics into its own class (#103034),1. Extract class 
+79,d7c6c2253d5,[Profiling] Improve parameterized request test (#102972),1. Extract class
+80,084bd5b5398,x-pack/plugin/core: rename double_metrics template (#103033),1. Rename template
+81,d68670fb885,Inline ActionType in RequestBuilder constructors (#102800),1. Inline Constant
+82,5c26cf07622,Simplify FailedShardEntry formatting (#102681),1. Simplify Method Datatype
+83,4a9b4bc9823,Make Legacy test cluster infrastructure configuration cache compatible (#101903),1. Move class
+84,6851cb3a1e9,Remove unused constructors and full classes of RequestBuilders (#102618),1. Remove Unused Constructors
+85,850e88c5894,Minor cleanup of org.elasticsearch.aggregations package (#102622),1. Replace Collections.sort() with  List.sort() 2.Replace primitive double with Double 3.Replace  lambda with method reference 4. (Replace for loops with foreach loops)Replace for loops with index variable to use foreach iteration style for loops
+86,70eb877528d,Cleanup GetResponse (#102611),1. Change method call
+87,161b5d950d9,Inline the tracer into telemetryservice for node construction (#102662),1. Inline variable
