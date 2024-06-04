@@ -1,0 +1,93 @@
+,Commit ID,Commit Message,Suggested Initial refactorings
+1,e767bccc,Use an indexed for loop to avoid defining an unused variable.,1.Replace Enhanced For Loop with Indexed For Loop
+2,ba3799fa,Reordering the modifiers to comply with the JLS:,1.Reorder modifier
+3,543905df,Use separate line for annotation in Javadoc,1.Extract Annotation Parameters to Separate Lines 2. Consistent Indentation (coding styling standard)
+4,4c6975f9,replace for with foreach (#1560),1.Replaced for loop with foreach
+5,b8300f0d,Simplify DisableOnDebug and ParentRunner,1.Simplify If Condition(Merge Two If Branches to reduce redundancy) 2.Replace Arrays.asList with Collections.singletonList(Use of Collections.singletonList)
+6,1d0688f5,Replace tabs with spaces,1.Replace Tabs with Spaces (coding styling standard)
+7,43cdf991,Improve expressiveness of test name,1.Rename test method
+8,assertion,Reuse `TestClass` for parameterized tests.,1.Reuse TestClass for Parameterized Tests -(reuse class) Reusing a test class improving efficiency and maintanability
+9,7c94e33e,Replace uses of synchronized(something) with ReentrantLock. (#1343),1.Replace synchronized Blocks with ReentrantLocks
+10,6838ac0e,Refactor BlockJUnit4ClassRunner.possiblyExpectingExceptions,1.Extract local variable (readability and efficiency)
+11,6f685561,Remove unused imports from AllExperimentalTests.java.,1.Remove unused imports
+12,4042487e,Improve error message if the thrown exception has the same class but the classes are loaded from different class loaders.,1.Improve Error Message Clarity
+13,a068272d,Improve ListTest sample test (#1389),1. Encapsulate variable 2. rename variable 3.Remove Unnecessary Boxing 
+14,394e199f,Improve test method name.,1. Rename method
+15,ee440345,Improve confusing Javadoc about the Rule running order (#1149),1. Improve Javadoc Clarity
+16,c07965ab,rm unused import,1.Removed unused imports
+17,b1d37670,Remove useless variable (#1342),1.Removed unused variable
+18,db8d5800,Refactor RuleChain: remove duplication,1.Reuse Algorithm from RunRules-(removes duplication)
+19,2bf3509d,Improve Maven Surefire config for better test output (#1289),1.Extract Surefire Version to Property
+20,df016dc0,Refactor AssumptionTests to use try-catch (#1299),1.Replace Expected Exception with Try-Catch (use try-catch block)
+21,17a2f117,Refactor ErrorReportingRunner (#1285),1.Remove unused parameter 2- remove explicit array creation -3 use singletonList
+22,b052c712,Replace ArrayList for primitive array in copyArray method at org.junit.runner.JUnitCommandLineParseResult,1.Replace ArrayList with Primitive Array (Replace arraylist with primitive array to improve performance and memory overhead)
+23,9f87b781,remove redundant interface modifiers,1.Remove redundant modifiers
+24,97654ff3,Replace example with addition example. Fixes #1088.,1.Improve Example Clarity and Self-Containment(Improve Example Clarity and Self-Containment:the addition example does not rely on an external class)
+25,b403288c,Separate tests for failure and run count.,1.Split method
+26,3d535e08,Remove unnecessary unused suppression,1.Remove Unused Suppress Warnings Annotation 
+27,3cea4a9e,Remove unused imports,1.Remove Unused Imports 
+28,495a9a93,Extract class that creates the runners.,1. Extract class 2.extract method 3.encapsulate field
+29,c391c25b,Remove redundant exception from method signature.,1.Remove Redundant Exception from Method Signature
+30,d0b029f6,Remove unused constructors in external AssumptionViolatedException.,1.Remove unused constructors
+31,86b9346e,Ensure serialization compatibility where possible,1.Rename Fields for Serialization Compatibility
+32,759061a3,Refactor RuleFieldValidator into strategy classes,"1.Replace Conditional with Polymorphism"" or ""Replace Type Code with State/Strategy (Extract Method-Level and Field-Level Validators into Separate Classes)"
+33,a5d194fc,Improve readability of ComparisonFailure,1.Extract Method2.Extract Class3.Remove redundant/unnecessary code
+34,88f7a12d,Don't verify the visibility of a method's declaring class.,1.Remove redundant code (validation checks)
+35,9a0aec8f,"Remove redundant ""extends"" clause",1.Remove Redundant 'extends' Clause 
+36,3189af00,Remove redundant field fCause,1.Removed redundant field close
+37,dca4a949,Extract BlockJUnit4ClassRunnerWithParameters.,1.Extract inner class
+38,2859b41a,"Replace StringBuffer to StringBuilder. Rename ""buffer"" to ""sb"" (in case of usage StringBuilder)",1.Replace usage of string buffer with stringbuilder 2. renamed a variable buffer to ''sb''
+39,9d3821f6,Extract annotations validation to a single class.,1.Extraction of annotations/Extract Annotations Validation to a Single Class/Consolidate Annotation Validation Logic
+40,fbb1efed,Remove duplicate code.,1.Extract Method for Modifiers Retrieval
+41,52e93b4f,Change visibility of field fMethod to private.,1.Encapsulate Field(This change improves encapsulation and reduces the risk of unintended modification of the fMethod)
+42,4512777f,Make parameterized assertion error extend assertion error,1.Change Inheritance(Change Exception Type)
+43,706c38a8,cleanup and javadoc adaptions in ParentRunner,1.  Introduce  a static final field 2.remove duplicate code 3. rename methods
+44,8b35f0c0,Extract isAnyExceptionExpected().,1. Extracted BlockJUnit4ClassRunnerWithParameters2.Removed Redundant Field fCause3.Replaced StringBuffer with StringBuilder4.Extracted Annotations Validation:
+45,c75dcc28,#NAME?,1. Sorting Fields2. Replace HashMap with Linked HashMap3.Extracting Method
+46,88e2a761,#NAME?,1. Moving Expect in Tests2.Fixing Javadoc Comments3.Fixing Duplicate Test
+47,85b7c26e,Simplify FailOnTimeout by using FutureTask,"1.""Simplify Concurrency Logic"" or ""Replace Custom Threading with FutureTask"""
+48,1963b424,"Refactored FromDataPoints functionality to use SpecificDataPointsSupplier as a normal ParameterSupplier, by allowing ParameterSuppliers to take TestClasses in their constructors.",1. Extract Method2.Introduce Parameter Object3.Replace Conditional with Polymorphism4.Simplify Conditional5.Extract Class6.Rename Method
+49,e34bdc9c,Move the generating documentation to a separate profile,"1. Profile Extraction"" or ""Profile Refactoring/move file"
+50,afbeeb31,Fixed style (annotations on a separate line),"1. Consistent annotation styling(Annotation Formatting"" or ""Annotation Style Refactoring)"
+51,5976b1d4,Extract method refactoring on getting filtered methods,1. Extract method
+52,74941e1e,Extract test case refactoring for subclass NullSorter Created a separate test case for null sorter applied to methods from the *sub* class. Fixed this test case so that it still works well under (jacoco) coverage.,"1. Extract Test Method"" or ""Extract Test Case."
+53,3791a960,Removed redundant phrase from parameter name,1. Rename parameter
+54,a7c4d033,Extract matchers to separate classes (refactoring),1. Extract Class.
+55,a68b42ca,Replace JUnitMatchers with CoreMatchers,1. Replace Method with Method Object
+56,620ccfdd,Remove unused import,1. Remove unused import
+57,d76010fd,remove unused imports in MethodSorterTest,1. Remove unused import 
+58,834dcd7b,Line up indentation (replace tabs with spaces),"1. Replace tabs with spaces (Indentation Refactoring"" or ""Whitespace Refactoring.)Replace Tabs with Spaces"
+59,fa80b68e,Replace JUnitMatchers with CoreMatchers,1. Remove unused imports
+60,f4df6d58,Simplify matcher expression in ParameterSignatureTest,"1. Simplify Assertion or Matcher express(""Simplification Refactoring"" or ""Expression Simplification Refactoring."")"
+61,bd6dc3af,"Reused HasWrongExpectedException instead of own defined class (they were the same) and relocated the changes to a better location in the file which is more inline with the rest of the file. And, of course, removed the superfluous brackets.",1. Reusing an existing class 2.Relocating changes to a better location in the file for better organization and consistency 3.Removing superfluous brackets for cleaner and more concise code
+62,6f8a359d,Cleanup TemporaryFolderUsageTest and add it to AllTests suite,1. Method extraction 2.removal of redundant code
+63,39545426,fixed issue #289 (removed useless code),1. Removed useless code
+64,e857122b,Fix issue 30. Make TestWatcher abstract.,1. Extract class 2. pull up method
+65,0128bff5,Replace TestRule.applyAll() with RunRules.,1. Extract method
+66,10389dda,removing redundant asserts,1. Remove Redundant Asserts 
+67,d0534dae,Improve handling of TestSuites,1. Method Extraction 2.Method Parameter Type Change 3.Method Extraction and Parameterization 4.Method Signature Change
+68,2de4d6f2,Improve handling of TestSuites.  Closes gh-96,1. Method Signature Change 2.Method Extraction
+69,70adacdc,Improve handling of TestSuites,1. Method Signature Change 2.Method Extraction
+70,1bbab715,CategoriesMark2 reuse code properly from TestClass,1. Code reuse(Reuse Code Properly from TestClass)-reduce duplication
+71,870289f3,Simplify Filter implementation for backward compatibility,1. Simplify Filtering Logic
+72,2f9b53db,Simplify Filter implementations,1. Simplification of Categories class2.Simplification of Filter class
+73,ac837502,Reduced some visibility where possible,1. Encapsulate Method(1.Reducing Method Visibility2)2.Remove TODO Comments3.Removing Unused Imports
+74,8435a2a0,Removed useless TODOs,1. Removing useless comments
+75,73e8fa81,Reduced some visibility where possible,1. Restrict Method Access( Reducing the visibility of certain methods from public to private) 2.Removing Unused Imports 3.Removing Unused Comments
+76,c4e7dfe1,Remove unused imports,1. Remove unused imports
+77,5042f695,"By passing TestClass to AllMembersSupplier, we can reuse the annotation parsing already supplied, and improve performance",1. Extract Method 2.Encapsulate Field 3.Introduce Explaining Variable4.Removal of TODO Comment
+78,4f405a49,"By passing TestClass to AllMembersSupplier, we can reuse the annotation parsing already supplied, and improve performance",1. Parameterize Constructor(1.Parameter Type Change2.Code Reuse Optimization)
+79,44fabd25,Reorganize ParentRunner and children,1. Extract method
+80,8226e3e6,#NAME?,"1. Rename Refactoring 2.Move Refactoring -(.Directory Structure Refactoring(Build Configuration Refactoring,File Relocation))"
+81,fc7d4be8,Absorb a lot of functionality into ParentRunner,"1. Rename Refactoring 2.Move Refactoring -(.Directory Structure Refactoring(Build Configuration Refactoring,File Relocation))"
+82,576377b9,#NAME?,1. Split package 2.Merge/combine class 3.Absorption of Deprecated Classes 4.Extract Method
+83,a58514ae,"Allowed more classes to be Anchors, more cleanup still to do",1. Method extraction 2.removal of redundant code 3.Rename constructor parameters
+84,4081076e,Big reorganization of how test methods are run. Now there are a nested set of Links which each handle one aspect of running a method. Custom runners can create their own chain of Links to introduce new behavior. This isn't done--it needs organization like extracting inner classes to top level classes and refinement of visibility.,1. Introduce Nested links 2.extract inner class
+85,787ed4e5,Refactored Theory runner to make it easier to extend (See StubbedTheoriesTest for one possible extension),1. Removed duplicate code
+86,35f5f3a7,Reorganize tests,1. Rename class 2.Dependency removal (due to duplication)
+87,9a192ede,#NAME?,1. Interface Extraction Refactoring(removed duplication)
+88,7a2a3811,Refactor MethodRoadie to remove duplication Remove stale TODO comments in code,1. Remove unused comment
+89,40cc52cf,"Created a separate src folder for sources, and adjusted Eclipse classpath and build file accordingly",1. Move class 2.Rename class
+90,ac8987f3,removed some unused methods,1.Remove unused method
+91,395e144b,removed unused parameters/fields as detected by PMD,1.Remove unused parameter 2.Remove unused field
+92,039f6e81,"removed unused imports, variables",1. Remove unused import 2. Remove unused variable
