@@ -1,0 +1,570 @@
+,Refactoring,Project,CommitID
+1,Rename  class,Elasticsearch,680774e7f27
+2,Rename  class,Springframework,a481c7649f
+3,Rename  class,Springframework,4aeeacb4c2
+4,Rename  class,Springframework,fd5b0e144d
+5,Rename  class,Tomcat,71b6644bce
+6,Rename  class,Tomcat,442b0d38ea
+7,Rename  class,Tomcat,9c5f303e9a
+8,Rename  class,Tomcat,df5d4b9e23
+9,Rename  class,Tomcat,8fe3db67fd
+10,Rename  class,Tomcat,55aadf3929
+11,Rename  class,Kafka,f0087ac6a8
+12,Rename  class,Kafka,8aaf7daff3
+13,Rename  class,Junit4,40cc52cf
+14,Rename class,Junit4,35f5f3a7
+15,Rename class,Junit4,8226e3e6
+16,Rename class,Junit4,fc7d4be8
+17,Rename constants,Elasticsearch,4e2389fb2cb
+18,Rename constants,Kafka,39cacca89b
+19,Rename field,Junit4,86b9346e
+20,Rename field,Junit4,86b9346e
+21,Rename method,Elasticsearch,5cf8b94f300
+22,Rename method,Elasticsearch,680774e7f27
+23,Rename method,Elasticsearch,d65461d7fbb
+24,Rename method,Elasticsearch,1c03489f469
+25,Rename method,Elasticsearch,50090f1a9c0
+26,Rename method,Elasticsearch,2b175653d9f
+27,Rename method,Elasticsearch,8582a18817e
+28,Rename method,Elasticsearch,1b2e8cf5a2b
+29,Rename method,Springframework,a481c7649f
+30,Rename method,Springframework,9d28fe90f5
+31,Rename method,Springframework,81c156eefb
+32,Rename method,Springframework,ebfa009f18
+33,Rename method,Springframework,e7cf54d4e2
+34,Rename method,Tomcat,00e7bca774
+35,Rename method,Kafka,8aaf7daff3
+36,Rename method,Kafka,d24abe0ede
+37,Rename method,Kafka,5eb82010ef
+38,Rename method,Junit4,706c38a8
+39,Rename method,Junit4,1963b424
+40,Rename method,Junit4,394e199f
+41,Rename method,Junit4,706c38a8
+42,Rename package,Kafka,f0087ac6a8
+43,Rename parameter,Elasticsearch,5c1e3e2c919
+44,Rename parameter,Elasticsearch,9f2d38856d3
+45,Rename parameter,Elasticsearch,b328982e373
+46,Rename parameter,Elasticsearch,b328982e373
+47,Rename parameter,Springframework,5c574b9878
+48,Rename parameter,Springframework,09b1e5edf6
+49,Rename parameter,Junit4,3791a960
+50,Rename parameter,Junit4,3791a960
+51,Rename parameter,Junit4,3791a960
+52,Rename parameter,Junit4,3791a960
+53,Rename parameter,Junit4,3791a960
+54,Rename variable,Elasticsearch,8582a18817e
+55,Rename variable,Elasticsearch,8773a1208ba
+56,Rename variable,Elasticsearch,680774e7f27
+57,Rename variable,Springframework,9d28fe90f5
+58,Rename variable,Springframework,ff9c7141c5
+59,Rename variable,Springframework,c559ec4dfb
+60,Rename variable,Hadoop,84dd6247686c
+61,Rename variable,Hadoop,9de13f879af6
+62,Rename variable,Hadoop,eb1d3ebe2fb1
+63,Rename variable,Hadoop,2e997d818d00
+64,Rename variable,Tomcat,4db15071f7
+65,Rename variable,Tomcat,f33ee501c3
+66,Rename variable,Tomcat,021b1696b3
+67,Rename variable,Tomcat,0d51ce7ba8
+68,Rename variable,Kafka,f80686b4ac
+69,Rename variable,Junit4,a068272d
+70,Rename variable,Junit4,a068272d
+71,Spit class,Kafka,c5889fcedd
+72,Spit class,Kafka,5bc3aa4280
+73,Split method,Tomcat,a50d10bbc7
+74,Split method,Tomcat,00e7d79d3b
+75,Split method,Junit4,b403288c
+76,Split package,Junit4,576377b9
+77,Replace expected attributed with try catch,Junit4,df016dc0
+78,Replace anonymous class with lambda expression,Elasticsearch,a5aae93b652
+79,Replace array with list,Tomcat,f650ea788d
+80,Replace array with list,Tomcat,f650ea788d
+81,Replace array with singleton list,Junit4,17a2f117
+82,Replace array with primitive array,Junit4,b052c712
+83,Replace collection.sort() with list.sort(),Elasticsearch,850e88c5894
+84,Replace collection.sort() with list.sort(),Elasticsearch,850e88c5895
+85,Replace constructor with factory method,Tomcat,87e1cbf767
+86,Replace customized methods with API,Springframework,d96a63944c
+87,Replace duplicated constant field,Elasticsearch,9e5fbf6021a
+88,Replace duplicated constant field,Hadoop,a333674785cf
+89,Replace duplicated constant field,Kafka,bd25937d2a
+90,Replace duplicated method,Springframework,bcf11e8919
+91,Replace duplicated method,Tomcat,4b831e21ef
+92,Replace duplicated method,Kafka,3b02e97b65
+93,Replace duplicated method,Elasticsearch,df8202206a8
+94,Replace for loop with foreach,Elasticsearch,850e88c5894
+95,Replace for loop with foreach,Elasticsearch,850e88c5895
+96,Replace for loop with foreach,Junit4,4c6975f9
+97,Replace for loop with foreach,Junit4,4c6975f9
+98,Replace for with while,Elasticsearch,cd38c3a28d4
+99,Replace for with while,Elasticsearch,cd38c3a28d5
+100,Replace  HashMap with linked HashMap,Junit4,c75dcc28
+101,Replace if with switch,Springframework,3c5d46166e
+102,Replace if with switch,Springframework,cfa3aa001f
+103,Replace inheritance with delegation,Springframework,a481c7649f
+104,Replace inner class with lambda expression,Elasticsearch,a5aae93b652
+105,Replace lambdas with method references,Elasticsearch,f5f0cd25572
+106,Replace method with method object,Elasticsearch,2b03368639b
+107,Replace method with method object,Junit4,a68b42ca
+108,Replace primitive with object,Hadoop,40467519399c
+109,Replace traditional loops with enhanced for loops,Tomcat,f40872b054
+110,Replace traditional loops with enhanced for loops,Tomcat,f40872b054
+111,Replace wrapper object with primitive,Elasticsearch,850e88c5894
+112,Replace wrapper object with primitive,Elasticsearch,850e88c5894
+113,Replace wrapper object with primitive,Elasticsearch,850e88c5894
+114,Replace iteration based retrieval with switch expression,Springframework,bcff7d74cd
+115,Replace iteration based retrieval with switch expression,Springframework,bcff7d74cd
+116,switch library,Hadoop,6b80b1e60f1a
+117,switch library,Kafka,cfe49d1b77
+118,switch library,Kafka,fd6c9f16ba
+119,switch library,Kafka,f137da04fa
+120,switch library,Kafka,f2ebd333e8
+121,switch library,Kafka,f23394336a
+122,switch library,Kafka,b9936d6292
+123,switch library,Kafka,6368d14a1d
+124,switch library,Kafka,5f9d01668c
+125,switch library,Kafka,4150595b0a
+126,switch to alternative implementation method,Elasticsearch,70eb877528d
+127,Turn local variable into field,Springframework,35372e5e72
+128,Reverse if condition logic,Springframework,ce43d1b1da
+129,Reverse if condition logic,Springframework,ce43d1b1da
+130,Reverse if condition logic,Springframework,ce43d1b1da
+131,Increase field visibility,Junit4,706c38a8
+132,Inline constant,Elasticsearch,d68670fb885
+133,Inline method,Elasticsearch,067aba96cd7
+134,Inline method,Elasticsearch,067aba96cd8
+135,Inline  method,Tomcat,4db15071f7
+136,Inline  method,Tomcat,e16eedd8ed
+137,Inline  method,Tomcat,d0b655d831
+138,Inline variable,Elasticsearch,161b5d950d9
+139,Introduce constant,Elasticsearch,01f19ecab29
+140,Introduce constant,Elasticsearch,01f19ecab29
+141,introduce parameter,Elasticsearch,2b175653d9f
+142,introduce parameter,Springframework,a481c7649f
+143,introduce parameter,Junit4,1963b424
+144,Loosen parameter’s type limitations,Junit4,2de4d6f2
+145,Avoid unnecessary actions by precondition checking,Tomcat,3a9dbd17f5
+146,Avoid unnecessary actions by precondition checking,Tomcat,3a9dbd17f5
+147,Change method signature,Elasticsearch,1d7d9dc1eed
+148,Change method signature,Elasticsearch,90f5bd5d635
+149,Change method signature,Elasticsearch,922e790cdc8
+150,Change method signature,Elasticsearch,5cf8b94f300
+151,Change method signature,Tomcat,a33a493ef7
+152,Change method signature,Kafka,dcff0878c4
+153,Change method signature,Kafka,513e1c641d
+154,Change method signature,Kafka,5767d12963
+155,Change method signature,Kafka,c254b22a48
+156,Change method signature,Kafka,f80686b4ac
+157,Change method signature,Kafka,0bc736f3c4
+158,Change method signature,Kafka,2e2f32c050
+159,Change method signature,Junit4,2de4d6f2
+160,Combine enum with comparator,Elasticsearch,1fae3e75017
+161,Complex refactoring,Tomcat,592bc75020
+162,Complex refactoring,Elasticsearch,77733642840
+163,Complex refactoring,Hadoop,e09e81abe47a
+164,Complex refactoring,Hadoop,e09e81abe47a
+165,Convert nested class to inner class,Springframework,eafbcfd385
+166,Decrease visibility,Kafka,2a6e420dfb
+167,Encapsulate field,Springframework,6fa09e1783
+168,Encapsulate field,Tomcat,bf58e444d9
+169,Encapsulate field,Junit4,5042f695
+170,Encapsulate field,Junit4,495a9a93
+171,Encapsulate field,Junit4,495a9a93
+172,Simplify source code by using existing data type,Tomcat,9c09f9abfb
+173,Parameterize links,Springframework,8567402969
+174,Add brackets,Junit4,bd6dc3af
+175,Add delegation for super class’s constructor,Tomcat,992bf9219b
+176,Add final keyword,Kafka,65424ab484
+177,Add parameter,Kafka,5eb82010ef
+178,Add parameter annotation,Kafka,5eb82010ef
+179,Add parameter modifier,Kafka,5eb82010ef
+180,Extract class,Elasticsearch,b9c29807ecc
+181,Extract class,Elasticsearch,d7c6c2253d5
+182,Extract class,Elasticsearch,9e5fbf6021a
+183,Extract class,Elasticsearch,987b778bb67
+184,Extract class,Elasticsearch,ed6e8ec80c7
+185,Extract class,Elasticsearch,45c32871acb
+186,Extract class,Elasticsearch,2b175653d9f
+187,Extract class,Elasticsearch,ed6e8ec80c7
+188,Extract class,Elasticsearch,45c32871acb
+189,Extract class,Springframework,6fa09e1783
+190,Extract class,Springframework,7e5efdd8dd
+191,Extract class,Hadoop,7cb22eb72d58
+192,Extract class,Hadoop,75bc6cfced30
+193,Extract class,Hadoop,c9a174a26057
+194,Extract class,Hadoop,5ed7e912dcf5
+195,Extract class,Hadoop,151b71d7affb
+196,Extract class,Hadoop,5440c75c4abe
+197,Extract class,Tomcat,b0e3b1bd78
+198,Extract class,Tomcat,bf93413990
+199,Extract class,Kafka,4a61b48d3d
+200,Extract class,Kafka,4af4bccbbf
+201,Extract class,Kafka,a3252629a3
+202,Extract class,Kafka,1401769d92
+203,Extract class,Kafka,c74c0f2fac
+204,Extract class,Kafka,f586fa59d3
+205,Extract class,Kafka,8d32a0f246
+206,Extract class,Kafka,d24abe0ede
+207,Extract class,Kafka,8d32a0f246
+208,Extract class,Junit4,e857122b
+209,Extract class,Junit4,495a9a93
+210,Extract class,Junit4,a5d194fc
+211,Extract class,Junit4,88f7a12d
+212,Extract class,Junit4,495a9a93
+213,Extract class,Junit4,a5d194fc
+214,Extract class,Junit4,495a9a93
+215,Extract class,Junit4,495a9a93
+216,Extract class,Junit4,a5d194fc
+217,Extract constant,Tomcat,9437efd95b
+218,Extract constant,Tomcat,b0e3b1bd78
+219,Extract field,Springframework,35372e5e72
+220,Extract interface,Elasticsearch,2b03368639b
+221,Extract interface,Elasticsearch,8582a18817e
+222,Extract interface,Springframework,a481c7649f
+223,Extract interface,Tomcat,d1f0c34b18
+224,Extract interface,Junit4,fa80b68e
+225,Extract interface,Junit4,2f9b53db
+226,Extract interface,Junit4,9a192ede
+227,Extract interface,Junit4,9a192ede
+228,Extract method,Elasticsearch,971cfb9317f
+229,Extract method,Elasticsearch,1b2e8cf5a2b
+230,Extract method,Elasticsearch,971cfb9317f
+231,Extract method,Elasticsearch,7550cea83c9
+232,Extract method,Elasticsearch,922e790cdc8
+233,Extract method,Elasticsearch,040692497b9
+234,Extract method,Elasticsearch,abd27222281
+235,Extract method,Elasticsearch,d65461d7fbb
+236,Extract method,Elasticsearch,1c03489f469
+237,Extract method,Elasticsearch,b96f8f0ce6a
+238,Extract method,Elasticsearch,0fb3a6ecd5b
+239,Extract method,Elasticsearch,1b7f3a0eae0
+240,Extract method,Elasticsearch,510c8515abe
+241,Extract method,Elasticsearch,a3b1d86c45c
+242,Extract method,Elasticsearch,922e790cdc8
+243,Extract method,Elasticsearch,040692497b9
+244,Extract method,Springframework,a481c7649f
+245,Extract method,Springframework,2dd22f64e1
+246,Extract method,Springframework,ce43d1b1da
+247,Extract method,Springframework,81c156eefb
+248,Extract method,Springframework,c559ec4dfb
+249,Extract method,Springframework,ebfa009f18
+250,Extract method,Springframework,4fd1431cea
+251,Extract method,Springframework,09b1e5edf6
+252,Extract method,Springframework,942800e8ec
+253,Extract method,Springframework,fd5b0e144d
+254,Extract method,Springframework,bcff7d74cd
+255,Extract method,Springframework,a481c7649f
+256,Extract method,Hadoop,6f7c4c74eaa8
+257,Extract method,Hadoop,6463f86f83fc
+258,Extract method,Hadoop,5d08ffa769d9
+259,Extract method,Hadoop,eb1d3ebe2fb1
+260,Extract method,Hadoop,2e997d818d00
+261,Extract method,Tomcat,592bc75020
+262,Extract method,Tomcat,3183fd399b
+263,Extract method,Tomcat,1bfffde19c
+264,Extract method,Tomcat,254ca3dc91
+265,Extract method,Tomcat,021b1696b3
+266,Extract method,Tomcat,0d51ce7ba8
+267,Extract method,Tomcat,b0e3b1bd78
+268,Extract method,Tomcat,4db283bf81
+269,Extract method,Tomcat,b4634a9723
+270,Extract method,Tomcat,5f6ac4e03e
+271,Extract method,Tomcat,4db15071f7
+272,Extract method,Tomcat,f33ee501c3
+273,Extract method,Tomcat,ba7fd15e45
+274,Extract method,Tomcat,e9ab5f4b97
+275,Extract method,Tomcat,be535eefed
+276,Extract method,Tomcat,55aadf3929
+277,Extract method,Tomcat,a50d10bbc7
+278,Extract method,Kafka,5eb82010ef
+279,Extract method,Kafka,1b925e9ee7
+280,Extract method,Kafka,b100f1efac
+281,Extract method,Kafka,c8cb85274e
+282,Extract method,Kafka,361095a1a7
+283,Extract method,Junit4,495a9a93
+284,Extract method,Junit4,759061a3
+285,Extract method,Junit4,a5d194fc
+286,Extract method,Junit4,6f8a359d
+287,Extract method,Junit4,d0534dae
+288,Extract method,Junit4,2de4d6f2
+289,Extract method,Junit4,70adacdc
+290,Extract method,Junit4,a58514ae
+291,Extract method,Junit4,9a192ede
+292,Extract method,Junit4,6f8a359d
+293,Extract method,Junit4,74941e1e
+294,Extract method,Junit4,8b35f0c0
+295,Extract method,Junit4,5976b1d4
+296,Extract method,Junit4,74941e1e
+297,Extract method,Junit4,0128bff5
+298,Extract method,Junit4,44fabd25
+299,Extract method,Junit4,576377b9
+300,Extract method,Junit4,a58514ae
+301,Extract super class,Tomcat,c766eefed9
+302,Extract variable,Springframework,fa5d246a1b
+303,Extract variable,Hadoop,2e997d818d00
+304,Extract variable,Hadoop,9de13f879af6
+305,Extract variable,Hadoop,241398de3b2c
+306,Extract variable,Hadoop,5b22dc6aced7
+307,Extract variable,Junit4,6838ac0e
+308,Merge class,Junit4,576377b9
+309,Merge conditional,Hadoop,241398de3b2c
+310,Merge conditional,Tomcat,afb270c3f7
+311,Merge conditional,Junit4,b8300f0d
+312,Merge method,Springframework,2dd22f64e1
+313,Merge parameter,Hadoop,241398de3b2c
+314,Merge parameter,Hadoop,5b22dc6aced7
+315,Remove debug logging notes,Tomcat,7c4e89fc00
+316,Remove brackets,Junit4,bd6dc3af
+317,Remove class annotation,Elasticsearch,a5aae93b652
+318,Remove class annotation,Elasticsearch,9f2d38856d3
+319,Remove class annotation,Elasticsearch,b198f3b4b46
+320,Remove class annotation,Elasticsearch,a8d19a5166c
+321,Remove class annotation,Elasticsearch,6faa54c171d
+322,Remove class annotation,Elasticsearch,6faa54c171d
+323,Remove class annotation,Elasticsearch,b198f3b4b46
+324,Remove class annotation,Springframework,b782747472
+325,Remove class annotation,Springframework,489c89b912
+326,Remove class annotation,Springframework,e51c71bcd6
+327,Remove class annotation,Springframework,489c89b912
+328,Remove class annotation,Kafka,2a6e420dfb
+329,Remove class annotation,Kafka,f44ee4fab7
+330,Remove class modifier,Elasticsearch,a5aae93b652
+331,Remove class modifier,Elasticsearch,9f2d38856d3
+332,Remove class modifier,Elasticsearch,b198f3b4b46
+333,Remove class modifier,Elasticsearch,a8d19a5166c
+334,Remove class modifier,Elasticsearch,6faa54c171d
+335,Remove class modifier,Elasticsearch,6faa54c171d
+336,Remove class modifier,Elasticsearch,b198f3b4b46
+337,Remove class modifier,Springframework,b782747472
+338,Remove class modifier,Springframework,489c89b912
+339,Remove class modifier,Springframework,e51c71bcd6
+340,Remove class modifier,Springframework,489c89b912
+341,Remove class modifier,Kafka,2a6e420dfb
+342,Remove class modifier,Kafka,f44ee4fab7
+343,Remove commented out code,Elasticsearch,ed6e8ec80c7
+344,Remove commented out code,Elasticsearch,ed6e8ec80c7
+345,Remove commented out code,Hadoop,680af873777f
+346,Remove commented out code,Tomcat,eeb4e761ab
+347,Remove commented out code,Tomcat,10e3731f34
+348,Remove commented out code,Tomcat,f33ee501c3
+349,Remove commented out code,Junit4,ac837502
+350,Remove commented out code,Junit4,8435a2a0
+351,Remove commented out code,Junit4,73e8fa81
+352,Remove commented out code,Junit4,5042f695
+353,Remove commented out code,Junit4,7a2a3811
+354,Remove commented out code,Junit4,88e2a761
+355,Remove commented out code,Junit4,5042f695
+356,Remove commented out code,Junit4,5042f695
+357,Remove commented out code,Junit4,7a2a3811
+358,Remove commented out code,Junit4,88e2a761
+359,Remove commented out code,Junit4,5042f695
+360,Remove commented out code,Junit4,ac837502
+361,Remove commented out code,Junit4,8435a2a0
+362,Remove commented out code,Junit4,73e8fa81
+363,Remove deprecated method,Springframework,d05ac097dd
+364,Remove deprecated method,Springframework,35103b0cd1
+365,Remove deprecated method,Springframework,d05ac097dd
+366,Remove duplicate condition checks,Springframework,871f705bca
+367,Remove duplicate condition checks,Springframework,871f705bca
+368,Remove duplicate condition checks,Springframework,871f705bca
+369,Remove duplicate code,Elasticsearch,8acfebeb084
+370,Remove duplicate code,Elasticsearch,5b2cdac7615
+371,Remove duplicate code,Elasticsearch,8acfebeb084
+372,Remove duplicate code,Elasticsearch,7d522145def
+373,Remove duplicate code,Elasticsearch,7ddf5191803
+374,Remove duplicate code,Elasticsearch,c5b705dfb41
+375,Remove duplicate code,Elasticsearch,3b7b86c507f
+376,Remove duplicate code,Elasticsearch,7cbdb6cc197
+377,Remove duplicate code,Elasticsearch,900a48ca26b
+378,Remove duplicate code,Junit4,88f7a12d
+379,Remove duplicate code,Junit4,787ed4e5
+380,Remove duplicate code,Junit4,fbb1efed
+381,Remove duplicate code,Junit4,39545426
+382,Remove duplication in constructor by delegating to another constructor,Hadoop,37bff63c0ffa
+383,Remove method annotation,Elasticsearch,df8202206a8
+384,Remove method annotation,Elasticsearch,df8202206a8
+385,Remove method annotation,Elasticsearch,df8202206a8
+386,Remove method annotation,Springframework,5bcbcb3049
+387,Remove method annotation,Springframework,942800e8ec
+388,Remove method annotation,Springframework,942800e8ec
+389,Remove method annotation,Tomcat,6e641be1d7
+390,Remove method annotation,Tomcat,ff53af8b69
+391,Remove method annotation,Tomcat,3cbca9ce51
+392,Remove method annotation,Tomcat,3cbca9ce51
+393,Remove method annotation,Tomcat,9a6bc65e50
+394,Remove method annotation,Tomcat,b3294ebe45
+395,Remove method annotation,Tomcat,9a6bc65e50
+396,Remove method annotation,Tomcat,9a6bc65e50
+397,Remove method annotation,Kafka,627aaef47e
+398,Remove method annotation,Kafka,627aaef47e
+399,Remove method modifier,Elasticsearch,df8202206a8
+400,Remove method modifier,Elasticsearch,df8202206a8
+401,Remove method modifier,Springframework,5bcbcb3049
+402,Remove method modifier,Springframework,942800e8ec
+403,Remove method modifier,Springframework,942800e8ec
+404,Remove method modifier,Tomcat,6e641be1d7
+405,Remove method modifier,Tomcat,ff53af8b69
+406,Remove method modifier,Tomcat,3cbca9ce51
+407,Remove method modifier,Tomcat,3cbca9ce51
+408,Remove method modifier,Tomcat,9a6bc65e50
+409,Remove method modifier,Tomcat,b3294ebe45
+410,Remove method modifier,Kafka,627aaef47e
+411,Remove overriding method that is equal to its overriden method,Tomcat,2236738fb2
+412,Remove overriding method that is equal to its overriden method,Tomcat,2236738fb2
+413,Remove parameter ,Elasticsearch,1116889819a
+414,Remove parameter ,Elasticsearch,142d4df6067
+415,Remove parameter ,Springframework,5c574b9878
+416,Remove parameter ,Springframework,9d28fe90f5
+417,Remove parameter ,Tomcat,fe70851fca
+418,Remove parameter ,Tomcat,84bd34e0b9
+419,Remove parameter ,Kafka,21ebbe6b28
+420,Remove parameter ,Junit4,395e144b
+421,Remove parameter ,Junit4,17a2f117
+422,Remove parameter annotation,Elasticsearch,1116889819a
+423,Remove parameter annotation,Elasticsearch,142d4df6067
+424,Remove parameter annotation,Springframework,5c574b9878
+425,Remove parameter annotation,Springframework,9d28fe90f5
+426,Remove parameter modifier,Springframework,5c574b9878
+427,Remove parameter modifier,Springframework,9d28fe90f5
+428,Remove parameter modifier,Tomcat,fe70851fca
+429,Remove parameter modifier,Tomcat,84bd34e0b9
+430,Remove parameter modifier,Junit4,17a2f117
+431,Remove repetitive checking,Tomcat,6e641be1d7
+432,Remove repetitive checking,Tomcat,ff53af8b69
+433,Remove repetitive checking,Tomcat,6e641be1d7
+434,Remove suppress warning annotation,Junit4,3d535e08
+435,Remove suppress warning annotation,Junit4,3d535e08
+436,Remove unnecessary array creation,Junit4,17a2f117
+437,Remove unnecessary compilation dependency,Hadoop,e09e81abe47a
+438,Remove unnecessary extends clause,Junit4,9a0aec8f
+439,Remove unnecessary method invocation,Springframework,afcd03bddc
+440,Remove unnecessary method invocation,Springframework,7b16ef90f1
+441,Remove unnecessary method invocation,Springframework,e2852e7355
+442,Remove unnecessary method invocation,Springframework,66e405525b
+443,Remove unnecessary method invocation,Springframework,59815cefce
+444,Remove unnecessary method invocation,Springframework,785ad399e9
+445,Remove unnecessary method invocation,Springframework,ceba4162bb
+446,Remove unnecessary method invocation,Springframework,1734deca1e
+447,Remove unnecessary method invocation,Springframework,ceba4162bb
+448,Remove unnecessary type cast,Hadoop,895f7c51fd10
+449,Remove unused method,Elasticsearch,a72524a9965
+450,Remove unused method,Elasticsearch,729a4dba393
+451,Remove unused method,Elasticsearch,56716694b09
+452,Remove unused method,Elasticsearch,56716694b09
+453,Remove unused method,Elasticsearch,8652e5cb579
+454,Remove unused method,Elasticsearch,8acfebeb084
+455,Remove unused method,Elasticsearch,d16ea551cde
+456,Remove unused method,Elasticsearch,bee55064e3f
+457,Remove unused method,Elasticsearch,50090f1a9c0
+458,Remove unused method,Elasticsearch,56716694b09
+459,Remove unused method,Springframework,4aeeacb4c2
+460,Remove unused method,Springframework,fa5d246a1b
+461,Remove unused method,Springframework,ff9c7141c5
+462,Remove unused method,Springframework,4aeeacb4c2
+463,Remove unused method,Hadoop,7f5a34dfaa7e
+464,Remove unused method,Hadoop,a897e745f598
+465,Remove unused method,Tomcat,00e7bca774
+466,Remove unused method,Tomcat,36807a6fca
+467,Remove unused method,Tomcat,32b1181b75
+468,Remove unused method,Tomcat,89864d971f
+469,Remove unused method,Tomcat,31e02d0062
+470,Remove unused method,Tomcat,418328a412
+471,Remove unused method,Tomcat,772761b100
+472,Remove unused method,Tomcat,54012bd3b8
+473,Remove unused method,Kafka,cfe49d1b77
+474,Remove unused method,Kafka,bd65db82b4
+475,Remove unused method,Kafka,a263627adb
+476,Remove unused method,Kafka,63f9f23ec0
+477,Remove unused method,Kafka,a3252629a3
+478,Remove unused method,Kafka,2a6e420dfb
+479,Remove unused method,Junit4,ac8987f3
+480,Remove unused field,Elasticsearch,f65f8ecd29a
+481,Remove unused field,Springframework,1fa6ac30b5
+482,Remove unused field,Springframework,2e56361fe4
+483,Remove unused field,Springframework,1fa6ac30b5
+484,Remove unused field,Tomcat,f59c112ff0
+485,Remove unused field,Tomcat,705e3644d7
+486,Remove unused field,Kafka,044d058e03
+487,Remove unused field,Kafka,ab44d5bb63
+488,Remove unused field,Junit4,395e144b
+489,Remove unused import,Elasticsearch,900a48ca26b
+490,Remove unused import,Elasticsearch,a72524a9965
+491,Remove unused import,Elasticsearch,0fb3a6ecd5b
+492,Remove unused import,Springframework,7474af4f09
+493,Remove unused import,Springframework,503ccb577c
+494,Remove unused import,Springframework,0d5a7db238
+495,Remove unused import,Hadoop,b673ebfec250
+496,Remove unused import,Hadoop,dd819f7904ca
+497,Remove unused import,Hadoop,6e11c941703d
+498,Remove unused import,Hadoop,7c66266b4e08
+499,Remove unused import,Tomcat,33232721f3
+500,Remove unused import,Tomcat,a8e5f82860
+501,Remove unused import,Tomcat,5c3695e8dc
+502,Remove unused import,Kafka,964e73178b
+503,Remove unused import,Kafka,39cacca89b
+504,Remove unused import,Kafka,2e2f32c050
+505,Remove unused import,Kafka,fd6c9f16ba
+506,Remove unused import,Kafka,f137da04fa
+507,Remove unused import,Kafka,f2ebd333e8
+508,Remove unused import,Kafka,f23394336a
+509,Remove unused import,Kafka,b9936d6292
+510,Remove unused import,Kafka,489a7dd71e
+511,Remove unused parameter ,Elasticsearch,1116889819a
+512,Remove unused parameter ,Elasticsearch,142d4df6067
+513,Remove unused parameter ,Springframework,5c574b9878
+514,Remove unused parameter ,Springframework,9d28fe90f5
+515,Remove unused parameter ,Tomcat,fe70851fca
+516,Remove unused parameter ,Tomcat,84bd34e0b9
+517,Remove unused parameter ,Kafka,21ebbe6b28
+518,Remove unused parameter ,Junit4,395e144b
+519,Remove unused parameter ,Junit4,17a2f117
+520,Remove unused variable,Elasticsearch,90f5bd5d635
+521,Remove unused variable,Springframework,e51c71bcd6
+522,Remove unused variable,Hadoop,a897e745f598
+523,Remove unused variable,Hadoop,fac895828f71
+524,Remove unused variable,Tomcat,e0927ed00f
+525,Remove unused variable,Tomcat,4fe7e810b6
+526,Remove unused variable,Tomcat,c2f49d28a9
+527,Remove unused variable,Kafka,e7f4f5dfe7
+528,Remove unused variable,Kafka,2574bef61c
+529,Remove unused variable,Kafka,a27c98ca61
+530,Remove unused variable,Junit4,039f6e81
+531,Remove unused variable,Junit4,039f6e81
+532,Remove variable annotation,Springframework,e51c71bcd6
+533,Remove variable annotation,Hadoop,a897e745f598
+534,Remove variable annotation,Tomcat,4fe7e810b6
+535,Remove variable annotation,Kafka,2574bef61c
+536,Remove  variable modifier,Tomcat,e0927ed00f
+537,Remove  variable modifier,Tomcat,4fe7e810b6
+538,Remove  variable modifier,Kafka,2574bef61c
+539,Move class,Elasticsearch,0e5f485058e
+540,Move class,Elasticsearch,4a9b4bc9823
+541,Move class,Elasticsearch,680774e7f27
+542,Move class,Springframework,6931106c5e
+543,Move class,Kafka,97105a8e58
+544,Move class,Kafka,069ce59e1e
+545,Move class,Junit4,40cc52cf
+546,Move class,Junit4,88e2a761
+547,Move class,Junit4,40cc52cf
+548,Move class,Junit4,88e2a761
+549,Move directory,Tomcat,bf58e444d9
+550,Move field,Junit4,759061a3
+551,Move method,Elasticsearch,680774e7f27
+552,Move method,Elasticsearch,b328982e373
+553,Move method,Elasticsearch,680774e7f27
+554,Move method,Springframework,c227fbfdf2
+555,Move method,Springframework,dfe320f172
+556,Move method,Springframework,676daa990b
+557,Move method,Springframework,2dd22f64e1
+558,Move method,Hadoop,680af873777f
+559,Move method,Hadoop,9de13f879af6
+560,Move method,Tomcat,4db283bf81
+561,Move method,Tomcat,b4634a9723
+562,Move method,Tomcat,c7796834bf
+563,Move method,Kafka,a03a71d7b5
+564,Move method,Kafka,48eb8c90ef
+565,Move method,Kafka,b0e28351ec
+566,Move method,Junit4,88e2a761
+567,Nest class,Springframework,ff14c5121d
+568,Pull up method,Tomcat,d1f0c34b18
+569,Pull up method,Junit4,e857122b
