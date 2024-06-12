@@ -1,0 +1,151 @@
+serial,refactoring,project,commit
+1,Add final keyword,Kafka,"65424ab484
+"
+2,Add parameter,Kafka,"5eb82010ef
+"
+3,Add parameter annotation,Kafka,"5eb82010ef
+"
+4,Add parameter modifier,Kafka,"5eb82010ef
+"
+5,Change method signature,Kafka,"0bc736f3c4
+"
+6,Change method signature,Kafka,2c925e9f33
+7,Change method signature,Kafka,"2e2f32c050
+"
+8,Change method signature,Kafka,"513e1c641d
+"
+9,Change method signature,Kafka,"5767d12963
+"
+10,Change method signature,Kafka,"c254b22a48
+"
+11,Change method signature,Kafka,"dcff0878c4
+"
+12,Decrease visibility,Kafka,"2a6e420dfb
+"
+13,Extract class,Kafka,"1401769d92
+"
+14,Extract class,Kafka,3cf13064cc
+15,Extract class,Kafka,"4a61b48d3d
+"
+16,Extract class,Kafka,"4af4bccbbf
+"
+17,Extract class,Kafka,"8d32a0f246
+"
+18,Extract class,Kafka,a0a9b6ffea
+19,Extract class,Kafka,"a3252629a3
+"
+20,Extract class,Kafka,"c74c0f2fac
+"
+21,Extract class,Kafka,"f586fa59d3
+"
+22,Extract method,Kafka,"1b925e9ee7
+"
+23,Extract method,Kafka,322ac86ba2
+24,Extract method,Kafka,"361095a1a7
+"
+25,Extract method,Kafka,"b100f1efac
+"
+26,Extract method,Kafka,"c8cb85274e
+"
+27,Move class,Kafka,"069ce59e1e
+"
+28,Move class,Kafka,"97105a8e58
+"
+29,Move method,Kafka,"48eb8c90ef
+"
+30,Move method,Kafka,"a03a71d7b5
+"
+31,Move method,Kafka,"b0e28351ec
+"
+32,Remove  variable modifier,Kafka,"2574bef61c
+"
+33,Remove class annotation,Kafka,eee2bf9686
+34,Remove class annotation,Kafka,"f44ee4fab7
+"
+35,Remove class modifier,Kafka,"2a6e420dfb
+"
+36,Remove class modifier,Kafka,6391c66035
+37,Remove method annotation,Kafka,"627aaef47e
+"
+38,Remove method annotation,Kafka,c576e02849
+39,Remove method modifier,Kafka,"627aaef47e
+"
+40,Remove parameter ,Kafka,"21ebbe6b28
+"
+41,Remove unused field,Kafka,"044d058e03
+"
+42,Remove unused field,Kafka,"ab44d5bb63
+"
+43,Remove unused import,Kafka,"2e2f32c050
+"
+44,Remove unused import,Kafka,"489a7dd71e
+"
+45,Remove unused import,Kafka,"964e73178b
+"
+46,Remove unused import,Kafka,da2e8dce71
+47,Remove unused import,Kafka,"f137da04fa
+"
+48,Remove unused import,Kafka,"f23394336a
+"
+49,Remove unused import,Kafka,"f2ebd333e8
+"
+50,Remove unused method,Kafka,083e11a22c
+51,Remove unused method,Kafka,"2a6e420dfb
+"
+52,Remove unused method,Kafka,"63f9f23ec0
+"
+53,Remove unused method,Kafka,8d7d563231
+54,Remove unused method,Kafka,"a263627adb
+"
+55,Remove unused method,Kafka,"bd65db82b4
+"
+56,Remove unused parameter ,Kafka,c9a42c85e2
+57,Remove unused variable,Kafka,"a27c98ca61
+"
+58,Remove unused variable,Kafka,e235e1a3fe
+59,Remove unused variable,Kafka,"e7f4f5dfe7
+"
+60,Remove variable annotation,Kafka,"2574bef61c
+"
+61,Rename  class,Kafka,"8aaf7daff3
+"
+62,Rename  class,Kafka,"f0087ac6a8
+"
+63,Rename constants,Kafka,"39cacca89b
+"
+64,Rename method,Kafka,"5eb82010ef
+"
+65,Rename method,Kafka,"8aaf7daff3
+"
+66,Rename method,Kafka,"d24abe0ede
+"
+67,Rename package,Kafka,"f0087ac6a8
+"
+68,Rename variable,Kafka,"f80686b4ac
+"
+69,Replace duplicated constant field,Kafka,"bd25937d2a
+"
+70,Replace duplicated method,Kafka,"3b02e97b65
+"
+71,Spit class,Kafka,"5bc3aa4280
+"
+72,Spit class,Kafka,"c5889fcedd
+"
+73,switch library,Kafka,"4150595b0a
+"
+74,switch library,Kafka,"5f9d01668c
+"
+75,switch library,Kafka,"6368d14a1d
+"
+76,switch library,Kafka,"b9936d6292
+"
+77,switch library,Kafka,"cfe49d1b77
+"
+78,switch library,Kafka,"f137da04fa
+"
+79,switch library,Kafka,"f23394336a
+"
+80,switch library,Kafka,"f2ebd333e8
+"
+81,switch library,Kafka,"fd6c9f16ba
+"
