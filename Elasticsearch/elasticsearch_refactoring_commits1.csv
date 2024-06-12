@@ -1,0 +1,228 @@
+serial,refactoring,project,commit
+1,Change method signature,Elasticsearch,"1d7d9dc1eed
+"
+2,Change method signature,Elasticsearch,"5cf8b94f300
+"
+3,Change method signature,Elasticsearch,"90f5bd5d635
+"
+4,Change method signature,Elasticsearch,"922e790cdc8
+"
+5,Combine enum with comparator,Elasticsearch,"1fae3e75017
+"
+6,Complex refactoring,Elasticsearch,"77733642840
+"
+7,Extract class,Elasticsearch,"2b175653d9f
+"
+8,Extract class,Elasticsearch,"45c32871acb
+"
+9,Extract class,Elasticsearch,"987b778bb67
+"
+10,Extract class,Elasticsearch,c0d35f1e77d
+11,Extract class,Elasticsearch,dbf59c54143
+12,Extract class,Elasticsearch,"ed6e8ec80c7
+"
+13,Extract interface,Elasticsearch,"2b03368639b
+"
+14,Extract interface,Elasticsearch,"8582a18817e
+"
+15,Extract method,Elasticsearch,"040692497b9
+"
+16,Extract method,Elasticsearch,"1b2e8cf5a2b
+"
+17,Extract method,Elasticsearch,"1b7f3a0eae0
+"
+18,Extract method,Elasticsearch,35ff2802518
+19,Extract method,Elasticsearch,"510c8515abe
+"
+20,Extract method,Elasticsearch,6187e905564
+21,Extract method,Elasticsearch,"7550cea83c9
+"
+22,Extract method,Elasticsearch,"922e790cdc8
+"
+23,Extract method,Elasticsearch,"971cfb9317f
+"
+24,Extract method,Elasticsearch,"971cfb9317f
+"
+25,Extract method,Elasticsearch,"a3b1d86c45c
+"
+26,Extract method,Elasticsearch,"abd27222281
+"
+27,Extract method,Elasticsearch,"b96f8f0ce6a
+"
+28,Extract method,Elasticsearch,bce405f9849
+29,Extract method,Elasticsearch,cea88cbeecb
+30,Extract method,Elasticsearch,"d65461d7fbb
+"
+31,Inline constant,Elasticsearch,"d68670fb885
+"
+32,Inline method,Elasticsearch,"067aba96cd7
+"
+33,Inline method,Elasticsearch,"067aba96cd7
+"
+34,Inline variable,Elasticsearch,"161b5d950d9
+"
+35,Introduce constant,Elasticsearch,"01f19ecab29
+"
+36,Introduce constant,Elasticsearch,"01f19ecab29
+"
+37,introduce parameter,Elasticsearch,"2b175653d9f
+"
+38,Move class,Elasticsearch,"0e5f485058e
+"
+39,Move class,Elasticsearch,"4a9b4bc9823
+"
+40,Move class,Elasticsearch,"680774e7f27
+"
+41,Move method,Elasticsearch,"680774e7f27
+"
+42,Move method,Elasticsearch,"680774e7f27
+"
+43,Move method,Elasticsearch,"b328982e373
+"
+44,Remove class annotation,Elasticsearch,084bd5b5398
+45,Remove class annotation,Elasticsearch,5c26cf07622
+46,Remove class annotation,Elasticsearch,"6faa54c171d
+"
+47,Remove class annotation,Elasticsearch,9ab7945fc74
+48,Remove class annotation,Elasticsearch,"9f2d38856d3
+"
+49,Remove class annotation,Elasticsearch,"b9c29807ecc
+"
+50,Remove class annotation,Elasticsearch,"b198f3b4b46
+"
+51,Remove class modifier,Elasticsearch,174bed090b8
+52,Remove class modifier,Elasticsearch,"6faa54c171d
+"
+53,Remove class modifier,Elasticsearch,7c385b001f4
+54,Remove class modifier,Elasticsearch,"a5aae93b652
+"
+55,Remove class modifier,Elasticsearch,"a8d19a5166c
+"
+56,Remove class modifier,Elasticsearch,"b198f3b4b46
+"
+57,Remove class modifier,Elasticsearch,"b198f3b4b46
+"
+58,Remove commented out code,Elasticsearch,"ed6e8ec80c7
+"
+59,Remove duplicate code,Elasticsearch,"3b7b86c507f
+"
+60,Remove duplicate code,Elasticsearch,"5b2cdac7615
+"
+61,Remove duplicate code,Elasticsearch,6851cb3a1e9
+62,Remove duplicate code,Elasticsearch,"7cbdb6cc197
+"
+63,Remove duplicate code,Elasticsearch,"7d522145def
+"
+64,Remove duplicate code,Elasticsearch,"7ddf5191803
+"
+65,Remove duplicate code,Elasticsearch,"8acfebeb084
+"
+66,Remove duplicate code,Elasticsearch,"900a48ca26b
+"
+67,Remove duplicate code,Elasticsearch,"c5b705dfb41
+"
+68,Remove method annotation,Elasticsearch,48dcb856157
+69,Remove method annotation,Elasticsearch,c7021050f16
+70,Remove method annotation,Elasticsearch,"df8202206a8
+"
+71,Remove method modifier,Elasticsearch,"df8202206a8
+"
+72,Remove method modifier,Elasticsearch,"df8202206a8
+"
+73,Remove parameter annotation,Elasticsearch,"1116889819a
+"
+74,Remove parameter annotation,Elasticsearch,155f2cdf3ff
+75,Remove unused field,Elasticsearch,"f65f8ecd29a
+"
+76,Remove unused import,Elasticsearch,"0fb3a6ecd5b
+"
+77,Remove unused import,Elasticsearch,"900a48ca26b
+"
+78,Remove unused import,Elasticsearch,"a72524a9965
+"
+79,Remove unused method,Elasticsearch,1452658e353
+80,Remove unused method,Elasticsearch,"50090f1a9c0
+"
+81,Remove unused method,Elasticsearch,"56716694b09
+"
+82,Remove unused method,Elasticsearch,"729a4dba393
+"
+83,Remove unused method,Elasticsearch,"8652e5cb579
+"
+84,Remove unused method,Elasticsearch,86933ad2f32
+85,Remove unused method,Elasticsearch,"8acfebeb084
+"
+86,Remove unused method,Elasticsearch,"bee55064e3f
+"
+87,Remove unused method,Elasticsearch,"d16ea551cde
+"
+88,Remove unused method,Elasticsearch,e9795cda380
+89,Remove unused parameter ,Elasticsearch,"1116889819a
+"
+90,Remove unused parameter ,Elasticsearch,"142d4df6067
+"
+91,Remove unused variable,Elasticsearch,"90f5bd5d635
+"
+92,Rename  class,Elasticsearch,"680774e7f27
+"
+93,Rename constants,Elasticsearch,"4e2389fb2cb
+"
+94,Rename method,Elasticsearch,"1b2e8cf5a2b
+"
+95,Rename method,Elasticsearch,"1c03489f469
+"
+96,Rename method,Elasticsearch,"2b175653d9f
+"
+97,Rename method,Elasticsearch,"50090f1a9c0
+"
+98,Rename method,Elasticsearch,"5cf8b94f300
+"
+99,Rename method,Elasticsearch,"680774e7f27
+"
+100,Rename method,Elasticsearch,"8582a18817e
+"
+101,Rename method,Elasticsearch,"d65461d7fbb
+"
+102,Rename parameter,Elasticsearch,"5c1e3e2c919
+"
+103,Rename parameter,Elasticsearch,"9f2d38856d3
+"
+104,Rename parameter,Elasticsearch,"b328982e373
+"
+105,Rename parameter,Elasticsearch,e23852736ef
+106,Rename variable,Elasticsearch,"680774e7f27
+"
+107,Rename variable,Elasticsearch,"8582a18817e
+"
+108,Rename variable,Elasticsearch,"8773a1208ba
+"
+109,Replace anonymous class with lambda expression,Elasticsearch,"a5aae93b652
+"
+110,Replace collection.sort() with list.sort(),Elasticsearch,"850e88c5894
+"
+111,Replace collection.sort() with list.sort(),Elasticsearch,850e88c5894
+112,Replace duplicated constant field,Elasticsearch,"9e5fbf6021a
+"
+113,Replace duplicated method,Elasticsearch,"df8202206a8
+"
+114,Replace for loop with foreach,Elasticsearch,"850e88c5894
+"
+115,Replace for loop with foreach,Elasticsearch,850e88c5894
+116,Replace for with while,Elasticsearch,"cd38c3a28d4
+"
+117,Replace for with while,Elasticsearch,"cd38c3a28d5
+"
+118,Replace inner class with lambda expression,Elasticsearch,"a5aae93b652
+"
+119,Replace lambdas with method references,Elasticsearch,"f5f0cd25572
+"
+120,Replace method with method object,Elasticsearch,"2b03368639b
+"
+121,Replace wrapper object with primitive,Elasticsearch,"850e88c5894
+"
+122,Replace wrapper object with primitive,Elasticsearch,"850e88c5894
+"
+123,Replace wrapper object with primitive,Elasticsearch,"850e88c5894
+"
+124,switch to alternative implementation method,Elasticsearch,"70eb877528d
+"
