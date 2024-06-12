@@ -1,0 +1,165 @@
+serial,refactoring,project,commit,url
+1,Convert nested class to inner class,Springframework,"eafbcfd385
+",https://github.com/spring-projects/spring-framework/commit/eafbcfd385
+2,Encapsulate field,Springframework,"6fa09e1783
+",https://github.com/spring-projects/spring-framework/commit/6fa09e1783
+3,Extract class,Springframework,3be4c0a893,https://github.com/spring-projects/spring-framework/commit/3be4c0a893
+4,Extract class,Springframework,"7e5efdd8dd
+",https://github.com/spring-projects/spring-framework/commit/7e5efdd8dd
+5,Extract field,Springframework,"35372e5e72
+",https://github.com/spring-projects/spring-framework/commit/35372e5e72
+6,Extract interface,Springframework,"a481c7649f
+",https://github.com/spring-projects/spring-framework/commit/a481c7649f
+7,Extract method,Springframework,3745224646,https://github.com/spring-projects/spring-framework/commit/3745224646
+8,Extract method,Springframework,324c6057fd,https://github.com/spring-projects/spring-framework/commit/324c6057fd
+9,Extract method,Springframework,4d6249811e,https://github.com/spring-projects/spring-framework/commit/4d6249811e
+10,Extract method,Springframework,a55b50b512,https://github.com/spring-projects/spring-framework/commit/a55b50b512
+11,Extract method,Springframework,f8a1dac593,https://github.com/spring-projects/spring-framework/commit/f8a1dac593
+12,Extract variable,Springframework,"fa5d246a1b
+",https://github.com/spring-projects/spring-framework/commit/fa5d246a1b
+13,introduce parameter,Springframework,"a481c7649f
+",https://github.com/spring-projects/spring-framework/commit/a481c7649f
+14,Merge method,Springframework,"2dd22f64e1
+",https://github.com/spring-projects/spring-framework/commit/2dd22f64e1
+15,Move class,Springframework,"6931106c5e
+",https://github.com/spring-projects/spring-framework/commit/6931106c5e
+16,Move method,Springframework,"2dd22f64e1
+",https://github.com/spring-projects/spring-framework/commit/2dd22f64e1
+17,Move method,Springframework,"676daa990b
+",https://github.com/spring-projects/spring-framework/commit/676daa990b
+18,Move method,Springframework,"c227fbfdf2
+",https://github.com/spring-projects/spring-framework/commit/c227fbfdf2
+19,Move method,Springframework,"dfe320f172
+",https://github.com/spring-projects/spring-framework/commit/dfe320f172
+20,Nest class,Springframework,"ff14c5121d
+",https://github.com/spring-projects/spring-framework/commit/ff14c5121d
+21,Parameterize links,Springframework,"8567402969
+",https://github.com/spring-projects/spring-framework/commit/8567402969
+22,Remove class annotation,Springframework,d2b54e2611,https://github.com/spring-projects/spring-framework/commit/d2b54e2611
+23,Remove class annotation,Springframework,"e51c71bcd6
+",https://github.com/spring-projects/spring-framework/commit/e51c71bcd6
+24,Remove class annotation,Springframework,e564a0de46,https://github.com/spring-projects/spring-framework/commit/e564a0de46
+25,Remove class annotation,Springframework,f7e07322ab,https://github.com/spring-projects/spring-framework/commit/f7e07322ab
+26,Remove class modifier,Springframework,438c3818cc,https://github.com/spring-projects/spring-framework/commit/438c3818cc
+27,Remove class modifier,Springframework,"489c89b912
+",https://github.com/spring-projects/spring-framework/commit/489c89b912
+28,Remove class modifier,Springframework,"b782747472
+",https://github.com/spring-projects/spring-framework/commit/b782747472
+29,Remove class modifier,Springframework,c3d123fef7,https://github.com/spring-projects/spring-framework/commit/c3d123fef7
+30,Remove deprecated method,Springframework,"35103b0cd1
+",https://github.com/spring-projects/spring-framework/commit/35103b0cd1
+31,Remove deprecated method,Springframework,"d05ac097dd
+",https://github.com/spring-projects/spring-framework/commit/d05ac097dd
+32,Remove deprecated method,Springframework,"d05ac097dd
+",https://github.com/spring-projects/spring-framework/commit/d05ac097dd
+33,Remove duplicate condition checks,Springframework,"871f705bca
+",https://github.com/spring-projects/spring-framework/commit/871f705bca
+34,Remove duplicate condition checks,Springframework,"871f705bca
+",https://github.com/spring-projects/spring-framework/commit/871f705bca
+35,Remove duplicate condition checks,Springframework,"871f705bca
+",https://github.com/spring-projects/spring-framework/commit/871f705bca
+36,Remove method annotation,Springframework,"5bcbcb3049
+",https://github.com/spring-projects/spring-framework/commit/5bcbcb3049
+37,Remove method annotation,Springframework,"942800e8ec
+",https://github.com/spring-projects/spring-framework/commit/942800e8ec
+38,Remove method annotation,Springframework,be94e1a2fb,https://github.com/spring-projects/spring-framework/commit/be94e1a2fb
+39,Remove method modifier,Springframework,"4fd1431cea
+",https://github.com/spring-projects/spring-framework/commit/4fd1431cea
+40,Remove method modifier,Springframework,"942800e8ec
+",https://github.com/spring-projects/spring-framework/commit/942800e8ec
+41,Remove method modifier,Springframework,b510bc3bab,https://github.com/spring-projects/spring-framework/commit/b510bc3bab
+42,Remove parameter ,Springframework,"ff9c7141c5
+",https://github.com/spring-projects/spring-framework/commit/ff9c7141c5
+43,Remove parameter annotation,Springframework,5965917d16,https://github.com/spring-projects/spring-framework/commit/5965917d16
+44,Remove parameter annotation,Springframework,dee8108bbc,https://github.com/spring-projects/spring-framework/commit/dee8108bbc
+45,Remove parameter modifier,Springframework,348cc01284,https://github.com/spring-projects/spring-framework/commit/348cc01284
+46,Remove parameter modifier,Springframework,"9d28fe90f5
+",https://github.com/spring-projects/spring-framework/commit/9d28fe90f5
+47,Remove unnecessary method invocation,Springframework,"1734deca1e
+",https://github.com/spring-projects/spring-framework/commit/1734deca1e
+48,Remove unnecessary method invocation,Springframework,"59815cefce
+",https://github.com/spring-projects/spring-framework/commit/59815cefce
+49,Remove unnecessary method invocation,Springframework,"66e405525b
+",https://github.com/spring-projects/spring-framework/commit/66e405525b
+50,Remove unnecessary method invocation,Springframework,"785ad399e9
+",https://github.com/spring-projects/spring-framework/commit/785ad399e9
+51,Remove unnecessary method invocation,Springframework,"7b16ef90f1
+",https://github.com/spring-projects/spring-framework/commit/7b16ef90f1
+52,Remove unnecessary method invocation,Springframework,"afcd03bddc
+",https://github.com/spring-projects/spring-framework/commit/afcd03bddc
+53,Remove unnecessary method invocation,Springframework,"ceba4162bb
+",https://github.com/spring-projects/spring-framework/commit/ceba4162bb
+54,Remove unnecessary method invocation,Springframework,"ceba4162bb
+",https://github.com/spring-projects/spring-framework/commit/ceba4162bb
+55,Remove unnecessary method invocation,Springframework,"e2852e7355
+",https://github.com/spring-projects/spring-framework/commit/e2852e7355
+56,Remove unused field,Springframework,"1fa6ac30b5
+",https://github.com/spring-projects/spring-framework/commit/1fa6ac30b5
+57,Remove unused field,Springframework,"1fa6ac30b5
+",https://github.com/spring-projects/spring-framework/commit/1fa6ac30b5
+58,Remove unused field,Springframework,"2e56361fe4
+",https://github.com/spring-projects/spring-framework/commit/2e56361fe4
+59,Remove unused import,Springframework,"0d5a7db238
+",https://github.com/spring-projects/spring-framework/commit/0d5a7db238
+60,Remove unused import,Springframework,"503ccb577c
+",https://github.com/spring-projects/spring-framework/commit/503ccb577c
+61,Remove unused import,Springframework,"7474af4f09
+",https://github.com/spring-projects/spring-framework/commit/7474af4f09
+62,Remove unused method,Springframework,"4aeeacb4c2
+",https://github.com/spring-projects/spring-framework/commit/4aeeacb4c2
+63,Remove unused method,Springframework,a3a94950f6,https://github.com/spring-projects/spring-framework/commit/a3a94950f6
+64,Remove unused method,Springframework,cd8bc2f82a,https://github.com/spring-projects/spring-framework/commit/cd8bc2f82a
+65,Remove unused method,Springframework,"ff9c7141c5
+",https://github.com/spring-projects/spring-framework/commit/ff9c7141c5
+66,Remove unused parameter ,Springframework,08237da4b4,https://github.com/spring-projects/spring-framework/commit/08237da4b4
+67,Remove unused parameter ,Springframework,2b6f3caff4,https://github.com/spring-projects/spring-framework/commit/2b6f3caff4
+68,Remove unused variable,Springframework,"e51c71bcd6
+",https://github.com/spring-projects/spring-framework/commit/e51c71bcd6
+69,Remove variable annotation,Springframework,"e51c71bcd6
+",https://github.com/spring-projects/spring-framework/commit/e51c71bcd6
+70,Rename  class,Springframework,"4aeeacb4c2
+",https://github.com/spring-projects/spring-framework/commit/4aeeacb4c2
+71,Rename  class,Springframework,8eb524dc4d,https://github.com/spring-projects/spring-framework/commit/8eb524dc4d
+72,Rename  class,Springframework,"fd5b0e144d
+",https://github.com/spring-projects/spring-framework/commit/fd5b0e144d
+73,Rename method,Springframework,"81c156eefb
+",https://github.com/spring-projects/spring-framework/commit/81c156eefb
+74,Rename method,Springframework,"9d28fe90f5
+",https://github.com/spring-projects/spring-framework/commit/9d28fe90f5
+75,Rename method,Springframework,"a481c7649f
+",https://github.com/spring-projects/spring-framework/commit/a481c7649f
+76,Rename method,Springframework,"e7cf54d4e2
+",https://github.com/spring-projects/spring-framework/commit/e7cf54d4e2
+77,Rename method,Springframework,"ebfa009f18
+",https://github.com/spring-projects/spring-framework/commit/ebfa009f18
+78,Rename parameter,Springframework,"09b1e5edf6
+",https://github.com/spring-projects/spring-framework/commit/09b1e5edf6
+79,Rename parameter,Springframework,"5c574b9878
+",https://github.com/spring-projects/spring-framework/commit/5c574b9878
+80,Rename variable,Springframework,59c65fa940,https://github.com/spring-projects/spring-framework/commit/59c65fa940
+81,Rename variable,Springframework,"c559ec4dfb
+",https://github.com/spring-projects/spring-framework/commit/c559ec4dfb
+82,Rename variable,Springframework,"ff9c7141c5
+",https://github.com/spring-projects/spring-framework/commit/ff9c7141c5
+83,Replace customized methods with API,Springframework,"d96a63944c
+",https://github.com/spring-projects/spring-framework/commit/d96a63944c
+84,Replace duplicated method,Springframework,"bcf11e8919
+",https://github.com/spring-projects/spring-framework/commit/bcf11e8919
+85,Replace if with switch,Springframework,"3c5d46166e
+",https://github.com/spring-projects/spring-framework/commit/3c5d46166e
+86,Replace if with switch,Springframework,"cfa3aa001f
+",https://github.com/spring-projects/spring-framework/commit/cfa3aa001f
+87,Replace inheritance with delegation,Springframework,"a481c7649f
+",https://github.com/spring-projects/spring-framework/commit/a481c7649f
+88,Replace iteration based retrieval with switch expression,Springframework,"bcff7d74cd
+",https://github.com/spring-projects/spring-framework/commit/bcff7d74cd
+89,Replace iteration based retrieval with switch expression,Springframework,"bcff7d74cd
+",https://github.com/spring-projects/spring-framework/commit/bcff7d74cd
+90,Reverse if condition logic,Springframework,"ce43d1b1da
+",https://github.com/spring-projects/spring-framework/commit/ce43d1b1da
+91,Reverse if condition logic,Springframework,"ce43d1b1da
+",https://github.com/spring-projects/spring-framework/commit/ce43d1b1da
+92,Reverse if condition logic,Springframework,"ce43d1b1da
+",https://github.com/spring-projects/spring-framework/commit/ce43d1b1da
+93,Turn local variable into field,Springframework,"35372e5e72
+",https://github.com/spring-projects/spring-framework/commit/35372e5e72
