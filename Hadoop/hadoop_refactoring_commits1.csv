@@ -1,0 +1,85 @@
+serial,refactoring,project,commit,url
+1,Extract class,Hadoop,"151b71d7affb
+",https://github.com/apache/hadoop/commit/151b71d7affb
+2,Extract class,Hadoop,40467519399c,https://github.com/apache/hadoop/commit/40467519399c
+3,Extract class,Hadoop,"5440c75c4abe
+",https://github.com/apache/hadoop/commit/5440c75c4abe
+4,Extract class,Hadoop,"5ed7e912dcf5
+",https://github.com/apache/hadoop/commit/5ed7e912dcf5
+5,Extract class,Hadoop,"75bc6cfced30
+",https://github.com/apache/hadoop/commit/75bc6cfced30
+6,Extract class,Hadoop,"7cb22eb72d58
+",https://github.com/apache/hadoop/commit/7cb22eb72d58
+7,Extract class,Hadoop,"c9a174a26057
+",https://github.com/apache/hadoop/commit/c9a174a26057
+8,Extract class,Hadoop,d60262fe0092,https://github.com/apache/hadoop/commit/d60262fe0092
+9,Extract class,Hadoop,dd72e8fbc364,https://github.com/apache/hadoop/commit/dd72e8fbc364
+10,Extract method,Hadoop,"5d08ffa769d9
+",https://github.com/apache/hadoop/commit/5d08ffa769d9
+11,Extract method,Hadoop,"6463f86f83fc
+",https://github.com/apache/hadoop/commit/6463f86f83fc
+12,Extract method,Hadoop,"6f7c4c74eaa8
+",https://github.com/apache/hadoop/commit/6f7c4c74eaa8
+13,Extract method,Hadoop,9adf0ca08997,https://github.com/apache/hadoop/commit/9adf0ca08997
+14,Extract method,Hadoop,"eb1d3ebe2fb1
+",https://github.com/apache/hadoop/commit/eb1d3ebe2fb1
+15,Extract variable,Hadoop,"241398de3b2c
+",https://github.com/apache/hadoop/commit/241398de3b2c
+16,Extract variable,Hadoop,"2e997d818d00
+",https://github.com/apache/hadoop/commit/2e997d818d00
+17,Extract variable,Hadoop,"5b22dc6aced7
+",https://github.com/apache/hadoop/commit/5b22dc6aced7
+18,Extract variable,Hadoop,"9de13f879af6
+",https://github.com/apache/hadoop/commit/9de13f879af6
+19,Merge conditional,Hadoop,"241398de3b2c
+",https://github.com/apache/hadoop/commit/241398de3b2c
+20,Merge parameter,Hadoop,"241398de3b2c
+",https://github.com/apache/hadoop/commit/241398de3b2c
+21,Merge parameter,Hadoop,"5b22dc6aced7
+",https://github.com/apache/hadoop/commit/5b22dc6aced7
+22,Move method,Hadoop,"680af873777f
+",https://github.com/apache/hadoop/commit/680af873777f
+23,Move method,Hadoop,"9de13f879af6
+",https://github.com/apache/hadoop/commit/9de13f879af6
+24,Remove useless code,Hadoop,"680af873777f
+",https://github.com/apache/hadoop/commit/680af873777f
+25,Remove duplication in constructor by delegating to another constructor,Hadoop,"37bff63c0ffa
+",https://github.com/apache/hadoop/commit/37bff63c0ffa
+26,Remove parameter ,Hadoop,0110e24ed867,https://github.com/apache/hadoop/commit/0110e24ed867
+27,Remove parameter ,Hadoop,62ff4e36cfaa,https://github.com/apache/hadoop/commit/62ff4e36cfaa
+28,Remove parameter ,Hadoop,b0b2cb4a16d9,https://github.com/apache/hadoop/commit/b0b2cb4a16d9
+29,Remove unnecessary compilation dependency,Hadoop,"e09e81abe47a
+",https://github.com/apache/hadoop/commit/e09e81abe47a
+30,Remove unnecessary type cast,Hadoop,"895f7c51fd10
+",https://github.com/apache/hadoop/commit/895f7c51fd10
+31,Remove unused import,Hadoop,09a69f996bae,https://github.com/apache/hadoop/commit/09a69f996bae
+32,Remove unused import,Hadoop,"6e11c941703d
+",https://github.com/apache/hadoop/commit/6e11c941703d
+33,Remove unused import,Hadoop,"7c66266b4e08
+",https://github.com/apache/hadoop/commit/7c66266b4e08
+34,Remove unused import,Hadoop,9c3330c22fe3,https://github.com/apache/hadoop/commit/9c3330c22fe3
+35,Remove unused import,Hadoop,"b673ebfec250
+",https://github.com/apache/hadoop/commit/b673ebfec250
+36,Remove unused import,Hadoop,"dd819f7904ca
+",https://github.com/apache/hadoop/commit/dd819f7904ca
+37,Remove unused method,Hadoop,"7f5a34dfaa7e
+",https://github.com/apache/hadoop/commit/7f5a34dfaa7e
+38,Remove unused method,Hadoop,"882f08b4bc1d
+",https://github.com/apache/hadoop/commit/882f08b4bc1d
+39,Remove unused variable,Hadoop,"a897e745f598
+",https://github.com/apache/hadoop/commit/a897e745f598
+40,Remove unused variable,Hadoop,"fac895828f71
+",https://github.com/apache/hadoop/commit/fac895828f71
+41,Remove variable annotation,Hadoop,1350539f2de1,https://github.com/apache/hadoop/commit/1350539f2de1
+42,Rename variable,Hadoop,"2e997d818d00
+",https://github.com/apache/hadoop/commit/2e997d818d00
+43,Rename variable,Hadoop,"84dd6247686c
+",https://github.com/apache/hadoop/commit/84dd6247686c
+44,Rename variable,Hadoop,"9de13f879af6
+",https://github.com/apache/hadoop/commit/9de13f879af6
+45,Rename variable,Hadoop,"eb1d3ebe2fb1
+",https://github.com/apache/hadoop/commit/eb1d3ebe2fb1
+46,Replace duplicated constant field,Hadoop,"a333674785cf
+",https://github.com/apache/hadoop/commit/a333674785cf
+47,Replace primitive with object,Hadoop,"40467519399c
+",https://github.com/apache/hadoop/commit/40467519399c
