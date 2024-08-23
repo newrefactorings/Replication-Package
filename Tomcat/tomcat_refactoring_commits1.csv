@@ -1,0 +1,192 @@
+c,refactoring,project,commit,url
+1,Add delegation for super classs constructor,Tomcat,"992bf9219b
+",https://github.com/apache/tomcat/commit/992bf9219b
+2,Avoid unnecessary actions by precondition checking,Tomcat,"3a9dbd17f5
+",https://github.com/apache/tomcat/commit/3a9dbd17f5
+3,Avoid unnecessary actions by precondition checking,Tomcat,"3a9dbd17f5
+",https://github.com/apache/tomcat/commit/3a9dbd17f5
+4,Change method signature,Tomcat,"a33a493ef7
+",https://github.com/apache/tomcat/commit/a33a493ef7
+5,Encapsulate field,Tomcat,"bf58e444d9
+",https://github.com/apache/tomcat/commit/bf58e444d9
+6,Extract class,Tomcat,"b0e3b1bd78
+",https://github.com/apache/tomcat/commit/b0e3b1bd78
+7,Extract class,Tomcat,"bf93413990
+",https://github.com/apache/tomcat/commit/bf93413990
+8,Extract constant,Tomcat,"9437efd95b
+",https://github.com/apache/tomcat/commit/9437efd95b
+9,Extract constant,Tomcat,"b0e3b1bd78
+",https://github.com/apache/tomcat/commit/b0e3b1bd78
+10,Extract interface,Tomcat,"d1f0c34b18
+",https://github.com/apache/tomcat/commit/d1f0c34b18
+11,Extract method,Tomcat,"1bfffde19c
+",https://github.com/apache/tomcat/commit/1bfffde19c
+12,Extract method,Tomcat,"254ca3dc91
+",https://github.com/apache/tomcat/commit/254ca3dc91
+13,Extract method,Tomcat,28e1010655,https://github.com/apache/tomcat/commit/28e1010655
+14,Extract method,Tomcat,"3183fd399b
+",https://github.com/apache/tomcat/commit/3183fd399b
+15,Extract method,Tomcat,33fe0f9be8,https://github.com/apache/tomcat/commit/33fe0f9be8
+16,Extract method,Tomcat,"5f6ac4e03e
+",https://github.com/apache/tomcat/commit/5f6ac4e03e
+17,Extract method,Tomcat,8cb16cd40b,https://github.com/apache/tomcat/commit/8cb16cd40b
+18,Extract method,Tomcat,962cdc9aa8,https://github.com/apache/tomcat/commit/962cdc9aa8
+19,Extract method,Tomcat,9addc690a6,https://github.com/apache/tomcat/commit/9addc690a6
+20,Extract method,Tomcat,"ba7fd15e45
+",https://github.com/apache/tomcat/commit/ba7fd15e45
+21,Extract method,Tomcat,bd25937d2a,https://github.com/apache/tomcat/commit/bd25937d2a
+22,Extract method,Tomcat,"be535eefed
+",https://github.com/apache/tomcat/commit/be535eefed
+23,Extract method,Tomcat,"f33ee501c3
+",https://github.com/apache/tomcat/commit/f33ee501c3
+24,Extract super class,Tomcat,"c766eefed9
+",https://github.com/apache/tomcat/commit/c766eefed9
+25,Inline  method,Tomcat,"4db15071f7
+",https://github.com/apache/tomcat/commit/4db15071f7
+26,Inline  method,Tomcat,"d0b655d831
+",https://github.com/apache/tomcat/commit/d0b655d831
+27,Inline  method,Tomcat,"e16eedd8ed
+",https://github.com/apache/tomcat/commit/e16eedd8ed
+28,Merge conditional,Tomcat,"afb270c3f7
+",https://github.com/apache/tomcat/commit/afb270c3f7
+29,Move directory,Tomcat,"bf58e444d9
+",https://github.com/apache/tomcat/commit/bf58e444d9
+30,Move method,Tomcat,"4db283bf81
+",https://github.com/apache/tomcat/commit/4db283bf81
+31,Move method,Tomcat,"b4634a9723
+",https://github.com/apache/tomcat/commit/b4634a9723
+32,Move method,Tomcat,"c7796834bf
+",https://github.com/apache/tomcat/commit/c7796834bf
+33,Pull up method,Tomcat,"d1f0c34b18
+",https://github.com/apache/tomcat/commit/d1f0c34b18
+34,Remove  variable modifier,Tomcat,"4fe7e810b6
+",https://github.com/apache/tomcat/commit/4fe7e810b6
+35,Remove  variable modifier,Tomcat,"e0927ed00f
+",https://github.com/apache/tomcat/commit/e0927ed00f
+36,Remove useless code,Tomcat,"10e3731f34
+",https://github.com/apache/tomcat/commit/10e3731f34
+37,Remove useless code,Tomcat,"eeb4e761ab
+",https://github.com/apache/tomcat/commit/eeb4e761ab
+38,Remove useless code,Tomcat,"f33ee501c3
+",https://github.com/apache/tomcat/commit/f33ee501c3
+39,Remove debug logging notes,Tomcat,"7c4e89fc00
+",https://github.com/apache/tomcat/commit/7c4e89fc00
+40,Remove method annotation,Tomcat,"3cbca9ce51
+",https://github.com/apache/tomcat/commit/3cbca9ce51
+41,Remove method annotation,Tomcat,7b30f69370,https://github.com/apache/tomcat/commit/7b30f69370
+42,Remove method annotation,Tomcat,"9a6bc65e50
+",https://github.com/apache/tomcat/commit/9a6bc65e50
+43,Remove method annotation,Tomcat,"9a6bc65e50
+",https://github.com/apache/tomcat/commit/9a6bc65e50
+44,Remove method annotation,Tomcat,"b3294ebe45
+",https://github.com/apache/tomcat/commit/b3294ebe45
+45,Remove method annotation,Tomcat,b3b1cd21c8,https://github.com/apache/tomcat/commit/b3b1cd21c8
+46,Remove method annotation,Tomcat,d7d18b87b9,https://github.com/apache/tomcat/commit/d7d18b87b9
+47,Remove method annotation,Tomcat,"ff53af8b69
+",https://github.com/apache/tomcat/commit/ff53af8b69
+48,Remove method modifier,Tomcat,"3cbca9ce51
+",https://github.com/apache/tomcat/commit/3cbca9ce51
+49,Remove method modifier,Tomcat,"3cbca9ce51
+",https://github.com/apache/tomcat/commit/3cbca9ce51
+50,Remove method modifier,Tomcat,"6e641be1d7
+",https://github.com/apache/tomcat/commit/6e641be1d7
+51,Remove method modifier,Tomcat,a56929fed7,https://github.com/apache/tomcat/commit/a56929fed7
+52,Remove method modifier,Tomcat,"b3294ebe45
+",https://github.com/apache/tomcat/commit/b3294ebe45
+53,Remove method modifier,Tomcat,"ff53af8b69
+",https://github.com/apache/tomcat/commit/ff53af8b69
+54,Remove overriding method that is equal to its overriden method,Tomcat,"2236738fb2
+",https://github.com/apache/tomcat/commit/2236738fb2
+55,Remove overriding method that is equal to its overriden method,Tomcat,"2236738fb2
+",https://github.com/apache/tomcat/commit/2236738fb2
+56,Remove parameter ,Tomcat,81208e5ca0,https://github.com/apache/tomcat/commit/81208e5ca0
+57,Remove parameter ,Tomcat,"fe70851fca
+",https://github.com/apache/tomcat/commit/fe70851fca
+58,Remove parameter modifier,Tomcat,"84bd34e0b9
+",https://github.com/apache/tomcat/commit/84bd34e0b9
+59,Remove parameter modifier,Tomcat,"e9ab5f4b97
+",https://github.com/apache/tomcat/commit/e9ab5f4b97
+60,Remove repetitive checking,Tomcat,"6e641be1d7
+",https://github.com/apache/tomcat/commit/6e641be1d7
+61,Remove repetitive checking,Tomcat,"6e641be1d7
+",https://github.com/apache/tomcat/commit/6e641be1d7
+62,Remove repetitive checking,Tomcat,"ff53af8b69
+",https://github.com/apache/tomcat/commit/ff53af8b69
+63,Remove unused field,Tomcat,"705e3644d7
+",https://github.com/apache/tomcat/commit/705e3644d7
+64,Remove unused field,Tomcat,"f59c112ff0
+",https://github.com/apache/tomcat/commit/f59c112ff0
+65,Remove unused import,Tomcat,"33232721f3
+",https://github.com/apache/tomcat/commit/33232721f3
+66,Remove unused import,Tomcat,"5c3695e8dc
+",https://github.com/apache/tomcat/commit/5c3695e8dc
+67,Remove unused import,Tomcat,"a8e5f82860
+",https://github.com/apache/tomcat/commit/a8e5f82860
+68,Remove unused method,Tomcat,"00e7bca774
+",https://github.com/apache/tomcat/commit/00e7bca774
+69,Remove unused method,Tomcat,"31e02d0062
+",https://github.com/apache/tomcat/commit/31e02d0062
+70,Remove unused method,Tomcat,"32b1181b75
+",https://github.com/apache/tomcat/commit/32b1181b75
+71,Remove unused method,Tomcat,"36807a6fca
+",https://github.com/apache/tomcat/commit/36807a6fca
+72,Remove unused method,Tomcat,"418328a412
+",https://github.com/apache/tomcat/commit/418328a412
+73,Remove unused method,Tomcat,"54012bd3b8
+",https://github.com/apache/tomcat/commit/54012bd3b8
+74,Remove unused method,Tomcat,"772761b100
+",https://github.com/apache/tomcat/commit/772761b100
+75,Remove unused method,Tomcat,"89864d971f
+",https://github.com/apache/tomcat/commit/89864d971f
+76,Remove unused parameter ,Tomcat,"84bd34e0b9
+",https://github.com/apache/tomcat/commit/84bd34e0b9
+77,Remove unused parameter ,Tomcat,"fe70851fca
+",https://github.com/apache/tomcat/commit/fe70851fca
+78,Remove unused variable,Tomcat,"4fe7e810b6
+",https://github.com/apache/tomcat/commit/4fe7e810b6
+79,Remove unused variable,Tomcat,"c2f49d28a9
+",https://github.com/apache/tomcat/commit/c2f49d28a9
+80,Remove unused variable,Tomcat,"e0927ed00f
+",https://github.com/apache/tomcat/commit/e0927ed00f
+81,Remove variable annotation,Tomcat,"4fe7e810b6
+",https://github.com/apache/tomcat/commit/4fe7e810b6
+82,Rename  class,Tomcat,"442b0d38ea
+",https://github.com/apache/tomcat/commit/442b0d38ea
+83,Rename  class,Tomcat,"55aadf3929
+",https://github.com/apache/tomcat/commit/55aadf3929
+84,Rename  class,Tomcat,"71b6644bce
+",https://github.com/apache/tomcat/commit/71b6644bce
+85,Rename  class,Tomcat,"8fe3db67fd
+",https://github.com/apache/tomcat/commit/8fe3db67fd
+86,Rename  class,Tomcat,"9c5f303e9a
+",https://github.com/apache/tomcat/commit/9c5f303e9a
+87,Rename  class,Tomcat,"df5d4b9e23
+",https://github.com/apache/tomcat/commit/df5d4b9e23
+88,Rename method,Tomcat,"00e7bca774
+",https://github.com/apache/tomcat/commit/00e7bca774
+89,Rename variable,Tomcat,"021b1696b3
+",https://github.com/apache/tomcat/commit/021b1696b3
+90,Rename variable,Tomcat,"0d51ce7ba8
+",https://github.com/apache/tomcat/commit/0d51ce7ba8
+91,Rename variable,Tomcat,"4db15071f7
+",https://github.com/apache/tomcat/commit/4db15071f7
+92,Rename variable,Tomcat,"f33ee501c3
+",https://github.com/apache/tomcat/commit/f33ee501c3
+93,Replace array with list,Tomcat,"f650ea788d
+",https://github.com/apache/tomcat/commit/f650ea788d
+94,Replace array with list,Tomcat,"f650ea788d
+",https://github.com/apache/tomcat/commit/f650ea788d
+95,Replace constructor with factory method,Tomcat,"87e1cbf767
+",https://github.com/apache/tomcat/commit/87e1cbf767
+96,Replace duplicated method,Tomcat,"4b831e21ef
+",https://github.com/apache/tomcat/commit/4b831e21ef
+97,Replace traditional loops with enhanced for loops,Tomcat,"f40872b054
+",https://github.com/apache/tomcat/commit/f40872b054
+98,Replace traditional loops with enhanced for loops,Tomcat,"f40872b054
+",https://github.com/apache/tomcat/commit/f40872b054
+99,Simplify source code by using existing data type,Tomcat,"9c09f9abfb
+",https://github.com/apache/tomcat/commit/9c09f9abfb
+100,Split method,Tomcat,"00e7d79d3b
+",https://github.com/apache/tomcat/commit/00e7d79d3b
+101,Split method,Tomcat,"a50d10bbc7
+",https://github.com/apache/tomcat/commit/a50d10bbc7
